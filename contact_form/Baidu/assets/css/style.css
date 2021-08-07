@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+    font-family: PingFang-SC-Regular,Helvetica,"Microsoft Yahei";
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+input:focus{
+    outline: none;
+} 
+
+.baidu{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../media/img/bg.jpg');
+    background-size: cover;
+    background-position:top  center;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+
+.baidu .container{
+    width: 1165px;
+    background: linear-gradient(rgba(255,255,255,0.01),rgba(255,255,255,0.01));
+    margin-top: 50px;
+    margin-left: 70px;
+    position: relative;
+}
+
+.baidu .container:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.baidu .container .logo img{
+    width: 132px;
+    margin-top: 20px;
+}
+
+.baidu .container .text{
+    width: 575px;
+    margin-top: 210px;
+    margin-left: 135px;
+    z-index: 1;
+}
+
+.baidu .container .text h2{
+    font-size: 54px;
+    letter-spacing: 0;
+    font-weight: 700;
+    color: #fff;
+}
+
+.baidu .container .text p{
+    font-size: 32px;
+    letter-spacing: 3.81px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.baidu .container .content{
+    width: 500px;
+    background: linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0.9));
+    z-index: 10;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-radius: 8px;
+}
+
+.baidu .container .content .header{
+    margin-top: 30px;
+    margin-left: 35px;
+}
+
+.baidu .container .content .header h2{
+    font-size: 36px;
+    color: #000;
+    padding-bottom: 4px;
+}
+
+.baidu .container .content .header p{
+    font-size: 14px;
+    color: #9B9B9B;
+}
+
+.baidu .container .content .header p a{
+    font-size: 14px;
+    color: #2e58ff;
+}
+
+.baidu .container .content .form form .input-1{
+    margin-top: 35px;
+    margin-left: 15px;
+}
+
+.baidu .container .content .form form .input-1 label{
+    font-size: 14px;
+    color: #333;
+    margin-right: 40px;
+}
+
+
+.baidu .container .content .form form .input-1 input{
+    width: 342px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+}
+
+.baidu .container .content .form form .input-1 input:hover{
+    border: 1px solid #bdc2cc;
+    
+}
+
+.baidu .container .content .form form .input-1 input:focus{
+    border: 1px solid #2E58FF;
+}
+
+.baidu .container .content .form form .input-1 input::placeholder{
+    font-size: 14px;
+    color: #c5c3c3;
+}
+
+.baidu .container .content .form form .input-2{
+    margin-top: 35px;
+    margin-left: 15px;
+}
+
+.baidu .container .content .form form .input-2 label{
+    font-size: 14px;
+    color: #333;
+    margin-right: 10px;
+}
+
+
+.baidu .container .content .form form .input-2 input{
+    width: 342px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+}
+
+
+.baidu .container .content .form form .input-2 input:hover{
+    border: 1px solid #bdc2cc;
+    
+}
+
+.baidu .container .content .form form .input-2 input:focus{
+    border: 1px solid #2E58FF;
+}
+
+.baidu .container .content .form form .input-2 input::placeholder{
+    font-size: 14px;
+    color: #c5c3c3;
+}
+
+.baidu .container .content .form form .input-3{
+    margin-top: 35px;
+    margin-left: 15px;
+    position: relative;
+}
+
+.baidu .container .content .form form .input-3 label{
+    font-size: 14px;
+    color: #333;
+    margin-right: 45px;
+}
+
+
+.baidu .container .content .form form .input-3 input{
+    width: 342px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+}
+
+.baidu .container .content .form form .input-3 i{
+    position: absolute;
+    top: 13px;
+    right: 50px;
+    color: #c5c3c3;
+}
+
+.baidu .container .content .form form .input-3 i:hover{
+    color: #2E58FF;
+}
+
+.baidu .container .content .form form .input-3 input:hover{
+    border: 1px solid #bdc2cc;
+    
+}
+
+.baidu .container .content .form form .input-3 input:focus{
+    border: 1px solid #2E58FF;
+}
+
+.baidu .container .content .form form .input-3 input::placeholder{
+    font-size: 14px;
+    color: #c5c3c3;
+}
+
+.baidu .container .content .form form .input-4{
+    margin-top: 35px;
+    margin-left: 15px;
+}
+
+.baidu .container .content .form form .input-4 label{
+    font-size: 14px;
+    color: #333;
+    margin-right: 5px;
+}
+
+
+.baidu .container .content .form form .input-4 input{
+    width: 205px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+}
+
+.baidu .container .content .form form .input-4 button{
+    width: 125px;
+    padding: 10px 0px 10px 0px;
+    background: #fff;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.baidu .container .content .form form .input-4 button:hover{
+    border: 1px solid #bdc2cc;
+    
+}
+
+.baidu .container .content .form form .input-4 button:focus{
+    border: 1px solid #2E58FF;
+}
+
+
+
+.baidu .container .content .form form .input-4 input:hover{
+    border: 1px solid #bdc2cc;
+    
+}
+
+.baidu .container .content .form form .input-4 input:focus{
+    border: 1px solid #2E58FF;
+}
+
+.baidu .container .content .form form .input-4 input::placeholder{
+    font-size: 14px;
+    color: #c5c3c3;
+}
+
+.baidu .container .content .form form .btn{
+    text-align: center;
+    margin-top: 35px;
+}
+
+.baidu .container .content .form form .btn button{
+    width: 400px;
+    padding: 15px;
+    border-radius: 100px;
+    background-color: rgb(167, 224, 250);
+    border: 1px solid rgb(167, 224, 250);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.baidu .container .content .form form .check{
+   margin-top: 20px;
+   margin-left: 50px;
+    width: 400px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.baidu .container .content .form form .check input{
+    display: inline-block;
+}
+
+.baidu .container .content .form form .check label{
+    font-size: 12px;
+    color: #9B9B9B;
+}
+
+.baidu .container .content .form form .check label a{
+    font-size: 12px;
+    color: #2e58ff;
+}
+
+.baidu .container .content .form form .check label a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+input:focus{
+    outline: none;
+} 
+
+.twitter .logo img{
+    margin-left: 505px;
+    margin-top: 10px;
+    width: 60px;
+}
+
+.twitter .form{
+    width: 345px;
+    margin: 10px auto;
+}
+
+.twitter .form h2{
+    font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: rgb(15, 20, 25);
+    font-size: 32px;
+}
+
+.twitter .form form input{
+    display: block;
+    width: 100%;
+    padding: 20px;
+    margin: 15px 0px;
+    border: 1px solid rgb(187, 186, 186);
+    border-radius: 6px;
+}
+
+.twitter .form form input:focus{
+    border: 2px solid #1DA1F2;
+}
+
+.twitter .form form input::placeholder{
+    font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+.twitter .form form button{
+    display: block;
+    width: 100%;
+    padding: 16px;
+    margin: 15px 0px;
+    background-color: #8ED0F9;
+    border: 1px solid #8ED0F9;
+    border-radius: 100px;
+    font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.twitter .form form .forgot{
+    text-align: center;
+}
+
+.twitter .form form .forgot a{
+    font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: rgb(27, 149, 224);
+   
+}
+
+
+.twitter .form form .forgot a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+input:focus{
+    outline: none;
+} 
+
+.google .container{
+    width: 755px;
+    height: 605px;
+    background-color: #fff;
+    margin: 30px auto;
+    border-radius: 5px;
+    border: 1px solid #b3b3b3;
+}
+
+.google .container:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.google .container .left-section{
+    width: 65%;
+    float: left;
+    margin-bottom: 50px;
+}
+
+.google .container .left-section .logo{
+    margin-top: 45px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.google .container .left-section .text h2{
+    color: #202124;
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.3333;
+    margin-left: 40px;
+}
+
+.google .container .left-section .form form .name:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.google .container .left-section .form form .name{
+    margin-top: 30px;
+
+}
+
+.google .container .left-section .form form .name input:nth-child(1){
+    width: 175px;
+    float: left;
+    margin-left: 40px;
+    padding: 11px;
+    margin-right: 10px;
+    border: 1px solid #b3b3b3;
+    border-radius: 4px;
+}
+
+.google .container .left-section .form form .name input::placeholder{
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+}
+
+
+
+
+.google .container .left-section .form form .name input:nth-child(2){
+    width: 175px;
+    float: left;
+    padding: 11px;
+    border: 1px solid #b3b3b3;
+    border-radius: 4px;
+}
+
+.google .container .left-section .form form .name input:focus{
+    border: 3px solid #1a73e8;;
+}
+
+.google .container .left-section .form form .user input{
+    width: 359px;
+    float: left;
+    margin-left: 40px;
+    padding: 11px;
+    border: 1px solid #b3b3b3;
+    border-radius: 4px;
+    margin-top: 20px;
+    display: block;
+}
+
+.google .container .left-section .form form .user input:focus{
+    border: 3px solid #1a73e8;
+}
+
+.google .container .left-section .form form .text-1{
+    width: 100%;
+    display: block;
+}
+
+.google .container .left-section .form form .text-1 p{
+    width: 215px;
+    display: block;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 45px;
+    color: #202124;
+    font-family: roboto,'Noto Sans Myanmar UI',arial,sans-serif;
+}
+
+.google .container .left-section .form form .btn button{
+    margin-left: 40px;
+    margin-top: 10px;
+    padding: 10px 7px;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 14px;
+    letter-spacing: .0107142857em;
+    font-weight: 400;
+    color: #1a73e8;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.google .container .left-section .form form .btn button:hover{
+    background-color: rgb(216, 233, 240);
+    border: 1px solid rgb(216, 233, 240);
+}
+
+.google .container .left-section .form form .pass:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.google .container .left-section .form form .pass{
+    margin-top: 35px;
+
+}
+
+.google .container .left-section .form form .pass input:nth-child(1){
+    width: 175px;
+    float: left;
+    margin-left: 40px;
+    padding: 11px;
+    margin-right: 10px;
+    border: 1px solid #b3b3b3;
+    border-radius: 4px;
+}
+
+.google .container .left-section .form form .pass input::placeholder{
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+}
+
+.google .container .left-section .form form .pass input:nth-child(2){
+    width: 175px;
+    float: left;
+    padding: 11px;
+    border: 1px solid #b3b3b3;
+    border-radius: 4px;
+}
+
+.google .container .left-section .form form .pass input:focus{
+    border: 3px solid #1a73e8;
+}
+
+.google .container .left-section .form form .text-2 p{
+    width: 308px;
+    display: block;
+    font-size: 12px;
+    margin-top: 3px;
+    margin-left: 50px;
+    color: #202124;
+    font-family: roboto,'Noto Sans Myanmar UI',arial,sans-serif;
+}
+
+.google .container .left-section .form form .checkbox{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.google .container .left-section .form form .checkbox input{
+    width: 30px;
+    padding: 2px;
+}
+
+.google .container .left-section .form form .checkbox label{
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    color: #202124;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.google .container .left-section .form form .btn-1 button:nth-child(1){
+    margin-left: 40px;
+    margin-top: 50px;
+    padding: 7px;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 14px;
+    letter-spacing: .0107142857em;
+    font-weight: 600;
+    color: #1a73e8;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.google .container .left-section .form form .btn-1 button:nth-child(1):hover{
+    background-color: rgb(216, 233, 240);
+    border: 1px solid rgb(216, 233, 240);
+}
+
+.google .container .left-section .form form .btn-1 button:nth-child(2){
+    margin-left: 175px;
+    margin-top: 50px;
+    padding: 7px 15px;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 14px;
+    letter-spacing: .0107142857em;
+    font-weight: 400;
+    color: #fff;
+    background-color: #1a73e8;
+    border: 1px solid #1a73e8;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.google .container .left-section .form form .btn-1 button:nth-child(2):hover{
+    background-color: #0b59be;
+    border: 1px solid #0b59be;
+}
+
+.google .container .right-section{
+    width: 35%;
+    float: left;
+    margin-bottom: 50px;
+    
+}
+
+.google .container .right-section img{
+    margin-top: 140px;
+    margin-left: -40px;
+}
+
+.google .container .right-section p{
+    text-align: center;
+    width: 190px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #202124;
+    font-family: roboto,'Noto Sans Myanmar UI',arial,sans-serif;
+    cursor: text;
+    margin-left: 10px;
+}

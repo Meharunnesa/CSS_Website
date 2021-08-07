@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400px" height="400px" viewBox="0 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>browser</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="17.6544591%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#F5F5F5" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="browser">
+            <g id="Oval-4">
+                <g id="path-2-link" fill-rule="nonzero" fill="#000000">
+                    <circle id="path-2" cx="200" cy="200" r="200"></circle>
+                </g>
+                <g id="path-2-link" fill="url(#linearGradient-1)">
+                    <circle id="path-2" cx="200" cy="200" r="200"></circle>
+                </g>
+            </g>
+            <path d="M222.214838,218.657001 L222.214838,350.126318 C222.214838,352.493713 211.839789,354.387628 200.028195,354.545455 C188.695449,354.387628 177.841552,352.493713 177.841552,350.126318 L177.841552,218.657001 L68.5044968,112.913373 C66.7487194,111.177284 72.3352842,102.970315 80.9545556,94.4476945 C89.5738272,85.9250736 98.0334827,80.4011527 99.6296436,82.1372422 L199.868579,178.884771 L300.107514,82.1372422 C301.863292,80.4011527 310.163331,85.9250736 318.782603,94.4476945 C327.401874,102.970315 333.148055,111.177284 331.551894,112.913373 L222.214838,218.657001 Z" id="Shape-Copy-2" fill="#FF3333" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f0f2f5;;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+input:focus{
+    outline: none;
+} 
+
+.facebook .container{
+    width: 985px;
+    margin: 125px auto;
+}
+
+.facebook .container:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.facebook .container .left-section{
+    width: 50%;
+    float: left;
+}
+
+.facebook .container .left-section .logo img{
+    width: 252px;
+    margin-top: 40px;
+}
+
+.facebook .container .left-section .text p{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1c1e21;
+    margin-left: 30px;
+}
+
+.facebook .container .right-section{
+    width: 50%;
+    float: left;
+}
+
+.facebook .container .right-section .form{
+    width: 365px;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px #b3b3b3;
+    margin-left: 120px;
+}
+
+.facebook .container .right-section .form form input{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    border-radius: 6px;
+}
+
+.facebook .container .right-section .form form input::placeholder{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+
+}
+
+.facebook .container .right-section .form form input:focus{
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+    caret-color: #1877f2;
+}
+
+.facebook .container .right-section .form form button{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    background-color: #1877f2;
+    margin-bottom: 15px;
+    border: 1px solid #1877f2;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.facebook .container .right-section .form form button:hover{
+    background-color: #166fe5;
+}
+
+.facebook .container .right-section .form a{
+    margin-top: 10px;
+    
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.facebook .container .right-section .form a:hover{
+    text-decoration: underline;
+}
+
+.facebook .container .right-section .form .divider{
+    width: 100%;
+    height: 1px;
+    background-color: #dddfe2;
+    margin: 20px 0px;
+}
+
+.facebook .container .right-section .form .account button{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    background-color: #42b72a;
+    border: 1px solid #42b72a;
+    cursor: pointer;
+}
+
+.facebook .container .right-section .form .account button:hover{
+    background-color: #36a420;
+    border-color: #36a420;
+}
+
+.facebook .container .right-section p{
+    margin-left: 160px;
+    margin-top: 30px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #1d2129;
+}
+
+.facebook .container .right-section p a{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #1d2129;
+    font-weight: bold;
+}
+
+.facebook .container .right-section p a:hover{
+    text-decoration: underline;
+}
+
+

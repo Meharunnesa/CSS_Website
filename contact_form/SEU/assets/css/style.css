@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+     background-color: black;
+     font-family: Muli,Helvetica Neue,Arial,sans-serif;
+ }
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+input:focus{
+    outline: none;
+} 
+
+.ums{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../media/img/E1.jpg');
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+
+.ums .container{
+    width: 385px;
+    height: 600px;
+    background-color: #fff;
+    margin: 30px auto;
+}
+
+.ums .container .logo{
+    text-align: center;
+}
+
+.ums .container .logo img{
+    width: 130px;
+    margin: 60px 0px 30px;
+
+}
+
+.ums .container .text{
+    text-align: center;
+}
+
+.ums .container .text h2{
+    color: rgba(0,0,0,.87);
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.ums .container .form{
+    margin-left: 25px;
+}
+
+.ums .container .form form .input-1{
+    width: 325px;
+    height: 60px;
+   position: fixed;
+    background-color: #fff;
+    
+}
+
+.ums .container .form form .input-1 input{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border: none;
+    padding-left: 15px;
+    border: 1px solid rgba(146, 145, 145, 0.54);
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+.ums .container .form form .input-1 input:hover,
+.ums .container .form form .input-1 input:focus{
+    border: 2px solid rgba(0, 0, 0, 0.568);
+}
+
+.ums .container .form form .input-1 span{
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: rgba(0,0,0,0.54);
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+
+
+.ums .container .form form .input-1 input:focus + span,.ums .container .form form .input-1 input:valid + span{
+    top: 0;
+    background-color: #ffff;
+    padding: 3px;
+    font-size: 12px;
+    
+}
+
+
+
+.ums .container .form form .input-1 i{
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    color: rgba(0,0,0,0.54);
+}
+
+
+.ums .container .form form .input-2{
+    margin-top: 90px;
+    width: 325px;
+    height: 60px;
+    background-color: #fff;
+    position: fixed;
+}
+
+.ums .container .form form .input-2 input{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border: none;
+    padding-left: 15px;
+    border: 1px solid rgba(146, 145, 145, 0.54);
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+
+
+.ums .container .form form .input-2 span {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: rgba(0,0,0,0.54);
+    background-color: #fff;
+    padding: 3px;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.ums .container .form form .input-2 input:hover,
+.ums .container .form form .input-2 input:focus{
+    border: 2px solid rgba(0, 0, 0, 0.568);
+}
+
+
+.ums .container .form form .input-2 input:focus + span,
+.ums .container .form form .input-2 input:valid + span{
+    top: 0;
+    background-color: #fff;
+    padding: 3px;
+    font-size: 12px;
+    
+}
+
+
+.ums .container .form form .input-2 i{
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    color: rgba(0,0,0,0.54);
+}
+
+.ums .container .form form .btn{
+    margin-top: 180px;
+    width: 325px;
+    height: 60px;
+    background-color: #fff;
+    position: fixed;
+    text-align: center;
+}
+
+.ums .container .form form .btn button{
+    width: 225px;
+    padding: 8px;
+    border-radius: 3px;
+    background-color: #039be5;
+    color: #fff;
+    border: 1px solid #039be5;
+    box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+    cursor: pointer;
+    font-size: 14px;
+}
+.ums .container .form form .forgot{
+    margin-top: 230px;
+    width: 325px;
+    height: 60px;
+    background-color: #fff;
+    position: fixed;
+    text-align: center;
+}
+
+.ums .container .form form .forgot p a{
+    font-size: 14px;
+    color: #039be5;
+}
+
+.ums .container .form form .forgot p a:hover{
+    text-decoration: underline;
+}
+
+.ums .container .form form .forgot p{
+    font-size: 11px;
+    margin-top: 10px;
+    color: rgba(0,0,0,0.54);
+}
+

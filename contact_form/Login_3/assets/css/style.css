@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ 
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+input:focus{
+    outline: none;
+} 
+
+.login{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.login .container{
+    width: 990px;
+    height: 450px;
+    background: linear-gradient(to right bottom,#764ba2,#667eea );
+    margin: 100px auto;
+    z-index: 1;
+    position: relative;
+    border-radius: 6px;
+    box-shadow: 0px 0px 5px #4d4c4c;
+}
+
+.login .container .text{
+    width: 500px;
+    text-align: center;
+     
+}
+
+.login .container .text h2{
+    font-size: 45px;
+    padding: 100px 0px 30px 0px;
+}
+
+.login .container .text p{
+    width: 400px;
+    margin-left: 50px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.login .container .text button{
+    margin: 30px 0px;
+    width: 150px;
+    padding: 12px;
+    border-radius: 100px;
+    border: 1px solid #000;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.login .container .content{
+    width: 350px;
+    height: 550px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0px 0px 15px #4d4c4c;
+    z-index: 10;
+    position: absolute;
+    top: -50px;
+    right: 120px;
+    
+}
+
+.login .container .content .logo{
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(to right bottom,#764ba2,#667eea );
+    border-radius: 50%;
+    margin-top: 20px;
+    display: inline-block;
+    transform: translate(136px,10px);
+    box-shadow: 0px 0px 5px #764ba2;
+    cursor: pointer;
+}
+
+.login .container .content .logo i{
+    font-size: 35px;
+    display: inline-block;
+    transform: translate(25px,18px);
+    color: #fff;
+}
+
+.login .container .content h2{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 135px;
+    color: #612899;
+}
+
+.login .container .content form{
+    margin-top: 30px;
+}
+
+.login .container .content form input{
+    width: 260px;
+    margin-left: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid #b3b3b3;
+}
+
+.login .container .content form .btn button{
+    width: 260px;
+    margin-left: 40px;
+    padding: 12px;
+    margin-top: 20px;
+    background: linear-gradient(to right bottom,#764ba2,#667eea );
+    border: 1px solid #612899;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login .container .content form .btn-1 button{
+    width: 260px;
+    margin-left: 40px;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid #612899;
+    box-shadow: 0px 0px 8px #612899;
+    color: #612899;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login .container .content form .forgot {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login .container .content form .forgot a{
+    color: #612899;
+}
+
+.login .container .content form .forgot a:hover{
+    text-decoration: underline;
+}

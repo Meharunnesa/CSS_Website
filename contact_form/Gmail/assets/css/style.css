@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+}
+ 
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+input:focus{
+    outline: none;
+} 
+
+.gmail .container{
+    width: 455px;
+    height: 500px;
+    background-color: #fff;
+    margin: 75px auto 0px;
+    padding: 50px;
+    border-radius: 5px;
+    border: 1px solid #dad7d7;
+}
+
+.gmail .container .logo{
+    text-align: center;
+}
+
+.gmail .container .text{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.gmail .container .text h2{
+    color: #202124;
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.3333;
+    
+}
+
+.gmail .container .text p{
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    color: #202124;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.gmail .container .form form input{
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #b3b3b3;
+    border-radius: 4px;
+}
+
+.gmail .container .form form input::placeholder{
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+}
+
+.gmail .container .form form input:focus{
+    border: 3px solid #1a73e8;
+}
+
+.gmail .container .text-1 a{
+    border-radius: 4px;
+    color: #1a73e8;
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: .25px;
+    margin-top: 5px;
+}
+
+.gmail .container .text-1 a:focus{
+    background-color: rgb(216, 233, 240);
+    border: 1px solid rgb(216, 233, 240);
+    padding: 2px 10px;
+}
+
+.gmail .container .text-1 p{
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    color: #5f6368;
+    font-size: 14px;
+    line-height: 1.4286;
+    margin-top: 32px;
+}
+
+.gmail .container  .btn button:nth-child(1){
+    margin-top: 50px;
+    padding: 7px;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 14px;
+    letter-spacing: .0107142857em;
+    font-weight: 600;
+    color: #1a73e8;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.gmail .container  .btn button:nth-child(1):hover{
+    background-color: rgb(216, 233, 240);
+    border: 1px solid rgb(216, 233, 240);
+}
+
+.gmail .container  .btn button:nth-child(2){
+    margin-left: 160px;
+    margin-top: 50px;
+    padding: 7px 15px;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 14px;
+    letter-spacing: .0107142857em;
+    font-weight: 400;
+    color: #fff;
+    background-color: #1a73e8;
+    border: 1px solid #1a73e8;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.gmail .container  .btn button:nth-child(2):hover{
+    background-color: #0b59be;
+    border: 1px solid #0b59be;
+}
+
+.gmail .footer{
+    width: 455px;
+    height: 50px;
+    background-color: #fff;
+    margin: 5px auto;
+}
+
+.gmail .footer:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.gmail .footer .select{
+    width: 60%;
+    float: left;
+}
+
+.gmail .footer .select select{
+    display: inline-block;
+    margin-top: 5PX;
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    color: #5f6368;
+    border: none;
+    cursor: pointer;
+}
+
+.gmail .footer .list{
+    width: 40%;
+    float: left;
+}
+
+.gmail .footer .list ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 8px;
+    margin-left: 5px;
+}
+
+
+
+.gmail .footer .list ul li a{
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    color: #5f6368;
+    font-size: 12px;
+    cursor: pointer;
+}
+

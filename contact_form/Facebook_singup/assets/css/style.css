@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f0f2f5;;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+input:focus{
+    outline: none;
+} 
+
+.facebook {
+    width: 450px;
+    height: 520px;
+    background-color: #fff;
+    margin: 100px auto;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px #777;
+}
+.facebook .container {
+    width: 406px;
+    margin: 10px auto;
+}
+
+.facebook .container .sing h2{
+    color: #1c1e21;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.facebook .container .sing i{
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 250px;
+    color: #353536;
+}
+
+.facebook .container .sing p{
+    color: #606770;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.facebook .divider{
+    width: 100%;
+    height: 1px;
+    background-color: #bdbec0;
+    margin-bottom: 10px;
+}
+
+.facebook .container .form form .name::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.facebook .container .form form .name input:nth-child(1){
+    width: 48.5%;
+    float: left;
+    margin-right: 10px;
+    padding: 11px;
+    border-radius: 5px;
+    border: 1px solid #ccd0d5;
+    background-color: #f5f6f7;
+}
+
+.facebook .container .form form .name input:nth-child(2){
+    width: 48.5%;
+    float: left;
+    padding: 11px;
+    border-radius: 5px;
+    border: 1px solid #ccd0d5;
+    background-color: #f5f6f7;
+}
+
+.facebook .container .form form .name input::placeholder{
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+
+.facebook .container .form form .phn-pass input{
+    display: block;
+    width: 100%;
+    padding: 11px;
+    border-radius: 5px;
+    border: 1px solid #ccd0d5;
+    background-color: #f5f6f7;
+    margin: 10px 0px;
+}
+
+.facebook .container .form form .phn-pass input::placeholder{
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+
+.facebook .container .form form .date p{
+    display: inline-block;
+    color: #606770;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+
+.facebook .container .form form .date i{
+    color: #606770;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.facebook .container .form form .date .birth select{
+    width: 32%;
+    padding: 11px;
+    border-radius: 5px;
+    border: 1px solid #ccd0d5;
+    background-color: #f5f6f7;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: #606770;
+    margin-right: 2px;
+}
+
+.facebook .container .form form .gender:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.facebook .container .form form .gender .text p{
+    display: inline-block;
+    color: #606770;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.facebook .container .form form .gender .text i{
+    color: #606770;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.facebook .container .form form .gender .female{
+    width: 32%;
+    float: left;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccd0d5;
+    background-color: #f5f6f7;
+    margin-right: 6px;
+}
+
+.facebook .container .form form .gender .female label{
+    color: #606770;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+
+.facebook .container .form form .gender .female input{
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+
+.facebook .container .form form .gender .male{
+    width: 32%;
+    float: left;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccd0d5;
+    background-color: #f5f6f7;
+    margin-right: 8px;
+}
+
+.facebook .container .form form .gender .male label{
+    color: #606770;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+
+.facebook .container .form form .gender .male input{
+    margin-left: 55px;
+    margin-top: 10px;
+}
+
+.facebook .container .form form .gender .custom{
+    width: 32%;
+    float: left;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccd0d5;
+    background-color: #f5f6f7;
+}
+
+.facebook .container .form form .gender .custom label{
+    color: #606770;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+
+.facebook .container .form form .gender .custom input{
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+
+.facebook .container .form form p{
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    color: #777;
+    font-size: 11px;
+    margin-top: 15px;
+}
+
+.facebook .container .form form p a{
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    color:  #385898;
+    cursor: pointer;
+    font-size: 11px;
+    margin-top: 15px;
+}
+
+.facebook .container .form form p a:hover{
+    text-decoration: underline;
+}
+
+.facebook .container .form form .btn{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.facebook .container .form form .btn button{
+    background-color: #00a400;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    color: #fff;
+    padding: 7px 32px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.facebook .container .form form .btn button:hover{
+    background: linear-gradient(#79bc64, #578843);
+}
+
+

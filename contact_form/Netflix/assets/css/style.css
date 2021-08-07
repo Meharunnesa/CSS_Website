@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+     background-color: black;
+ }
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+input:focus{
+    outline: none;
+} 
+
+.netflix{
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0, 0, 0, 0.5)) ,url('../media/img/bg.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.5);
+    opacity: 1;
+}
+
+.netflix .netflix-logo{
+    width: 160px;
+}
+
+.netflix .netflix-logo img{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.netflix .form{
+    width: 415px;
+    background-image: linear-gradient(rgba(0, 0 , 0, 0.7), rgba(0, 0, 0, 0.7));
+    margin: 5px auto;
+    padding: 60px;
+}
+
+.netflix .form .form-content{
+   
+}
+
+.netflix .form .form-content h2{
+    color: #fff;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+
+.netflix .form .form-content form input{
+    width: 100%;
+    padding: 15px;
+    background-color: #333333;
+    margin-bottom: 20px;
+    border: 1px solid #333333;
+    border-radius: 3px;
+}
+
+.netflix .form .form-content form input::placeholder{
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 16px;
+}
+
+.netflix .form .form-content form button{
+    width: 100%;
+    padding: 16px;
+    background-color: #E50914;
+    margin-bottom: 20px;
+    border: 1px solid #E50914;
+    border-radius: 3px;
+    color: #fff;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.netflix .form .form-content .remember input{
+    width: 20px;
+}
+
+.netflix .form .form-content .remember label{
+    color: #b3b3b3;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.netflix .form .form-content .remember a{
+    color: #b3b3b3;
+    margin-left: 100px;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.netflix .form .form-content .remember a:hover{
+    text-decoration: underline;
+}
+
+.netflix .form .form-content .text{
+    margin-top: 50px;
+}
+
+
+.netflix .form .form-content .text a{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #737373;
+}
+
+.netflix .form .form-content .text a img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+
+
+.netflix .form .form-content .sing p{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #737373;
+    margin-top: 20px;
+}
+
+.netflix .form .form-content .sing a{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #fff;
+}
+
+.netflix .form .form-content .sing a:hover{
+    text-decoration: underline;
+}
+
+.netflix .form .form-content .text-2 p{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #737373;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+
+
+.netflix .form .form-content .text-2 p a{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #0071eb;
+    display: inline-block;
+}
+
+.netflix .form .form-content .text-2 p a:hover{
+    text-decoration: underline;
+}

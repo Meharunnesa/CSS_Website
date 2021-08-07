@@ -1,0 +1,1653 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+/* Start Resating Code  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+input:focus{
+    outline: none;
+} 
+
+ul li{
+    list-style: none;
+}
+
+/* End Resatting Code  */
+
+.container{
+    width: 1130px;
+    margin: 0px auto;
+}
+
+/* Start Home Secton  */
+
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../media/img/home-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Start Nav  */
+
+.home nav{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-image: linear-gradient(180deg, #00000078 0%, #00000047 60%, #00000000 100%) !important;
+}
+
+.home nav .header{
+    height: 100px;
+    border-bottom: 4px solid transparent;
+    border-image: linear-gradient(-101deg, #0faff3 2%, #92c802 20%, #f3cb00 40%, #ff9d29 60%, #92c802 80%, #0faff3 92%);
+    border-image-slice: 10;
+}
+
+.home nav .header::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.home nav .header .logo{
+    width: 330px;
+    float: left;
+    margin-top: 20px;
+}
+
+.home nav .header .logo img{
+    cursor: pointer;
+}
+
+.home nav .header .menu{
+    width: 763px;
+    float: left;
+    margin-top: 20px;
+}
+
+.home nav .header .menu ul li{
+    display: inline-block;
+    padding: 20px;
+}
+
+.home nav .header .menu ul li a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.home nav .header .menu ul li a:hover{
+    color: #ff8257;
+}
+
+.home nav .header .icon{
+    float: left;
+}
+
+.home nav .header .icon i{
+    color: #fff;
+    cursor: pointer;
+    margin-top: 45px;
+    margin-left: 20px;
+}
+
+/* Content  */
+
+.home .content{
+    text-align: center;
+    padding-top: 200px;
+}
+
+.home .content h1{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 92px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.home .content p{
+    font-family: 'Source Serif Pro', serif;
+    letter-spacing: 3px;
+    font-size: 22px;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.home .content button{
+    padding: 12px 30px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.home .content button:hover{
+    background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5));
+
+}
+
+/* End Home Secton  */
+
+
+/* Start About Secton  */
+
+.about{
+    width: 100%;
+    background-color: #EDF0F8;
+    padding: 70px 0px;
+}
+
+.about .tittle{
+    text-align: center;
+    position: relative;
+}
+
+.about .tittle h2{
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    line-height: 1.2;
+    background: linear-gradient(to right, #3264f5 2%, #aa0bb2 82%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    
+    
+    
+}
+
+.about .divider{
+    width: 355px;
+    height: 2px;
+    background: linear-gradient(to right, #aa0bb2 2%, #3264f5 82%);
+    box-shadow: 0 0 15px #2983c4bd;
+    margin: 10px auto 0px;
+    
+}
+
+.about .logo{
+    position: absolute;
+    top: 750px;
+    left: 650px;
+    background-color: #EDF0F8;
+    padding: 5px;
+    
+}
+
+/* BOX  */
+
+.about .box{
+    margin-top: 30px;
+}
+
+.about .box:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.about .box img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0 0 0;
+}
+
+.about .box h3{
+    color: #212529;
+    padding: 10px ;
+}
+
+.about .box p{
+    color: #212529;
+    padding: 10px ;
+    line-height: 1.5;
+}
+
+.about .box .item-1{
+    width: 25%;
+    height: 283px;
+    background-color: #fff;
+    float: left;
+}
+
+.about .box .item-2{
+    width: 25%;
+    height: 283px;
+    background-color: #fff;
+    float: left;
+}
+
+.about .box .item-3{
+    width: 25%;
+    height: 283px;
+    background-color: #fff;
+    float: left;
+}
+
+.about .box .item-3 img{
+    border-radius: 0;
+}
+
+.about .box .item-4{
+    width: 25%;
+    height: 283px;
+    background-color: #fff;
+    float: left;
+    border-radius: 0 10px 0 0;
+}
+
+
+/* BOX-1  */
+
+
+.about .box-1:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.about .box-1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.about .box-1 h3{
+    color: #212529;
+    padding: 10px ;
+}
+
+.about .box-1 p{
+    color: #212529;
+    padding: 10px ;
+    line-height: 1.5;
+}
+
+.about .box-1 .item-1{
+    width: 25%;
+    height: 283px;
+    background-color: #fff;
+    float: left;
+    border-radius: 0 0 0 10px;
+}
+
+.about .box-1 .item-2{
+    width: 25%;
+    height: 283px;
+    background-color: #fff;
+    float: left;
+}
+
+.about .box-1 .item-3{
+    width: 25%;
+    height: 283px;
+    background-color: #fff;
+    float: left;
+}
+
+.about .box-1 .item-3 img{
+    border-radius: 0;
+}
+
+.about .box-1 .item-4{
+    width: 25%;
+    height: 283px;
+    background-color: #fff;
+    float: left;
+    
+}
+
+.about .box-1 .item-4 img{
+    border-radius: 0 0 10px 0;
+}
+
+.about .btn{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.about .btn button{
+    width: 205px;
+    height: 55px;
+    border-radius: 100px;
+    border: none;
+    background: linear-gradient( 90deg,#6b61f4 0%,#54a0fe 50%,#3dddfb 100% ) !important;
+    box-shadow: 0px 5px 20px 0 #9c81e766;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.about .btn button span{
+    font-size: 18px;
+    color: #fff;
+   display: inline-block;
+   transform: translate(8px,-3px);
+}
+
+/* End About Secton  */
+
+
+/* Start Group Secton  */
+
+.group{
+    width: 100%;
+    background: linear-gradient(135deg, #8ecdf5a8 20%, #30aee2bd 50%, #c4f6fbb3 90%);
+    padding: 70px 0px;
+}
+
+.group .tittle{
+    text-align: center;
+    position: relative;
+}
+
+.group .tittle h2{
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.group .tittle p{
+    color: #fff;
+    padding-top: 30px;
+}
+
+.group .divider{
+    width: 355px;
+    height: 2px;
+    background: #fff;
+    box-shadow: 0 0 15px #fff;
+    margin: 20px auto 0px;
+    
+}
+
+.group .logo{
+    position: absolute;
+    top: 1665px;
+    left: 650px;
+    background-color: #64AACB;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+/* img  */
+
+.group .img{
+    margin-top: 50px;
+}
+
+.group .img:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.group .img p{
+    color: #fff;
+    display: inline-block;
+    transform: translate(50px,38px);
+}
+
+/* man-1  */
+
+.group .img .man-1{
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    background-image: url("../media/img/Zhuang\ 壮.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: left;
+    margin-right: 20px;
+    cursor: pointer;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+    transition: all .3s linear;
+}
+
+.group .img .man-1:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../media/img/Zhuang\ 壮.jpg");
+    background-size: 110%;
+}
+
+
+/* man-2  */
+
+.group .img .man-2{
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    background-image: url("../media/img/yi_culture_ethnic_groups_yunnan_china.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: left;
+    margin-right: 20px;
+    cursor: pointer;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+    transition: all .3s linear;
+}
+
+.group .img .man-2:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../media/img/yi_culture_ethnic_groups_yunnan_china.jpg");
+    background-size: 110%;
+}
+
+
+/* man-3  */
+
+.group .img .man-3{
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    background-image: url("../media/img/yao_culture_ethnic_groups_yunnan_china.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: left;
+    margin-right: 20px;
+    cursor: pointer;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+    transition: all .3s linear;
+}
+
+.group .img .man-3:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../media/img/yao_culture_ethnic_groups_yunnan_china.jpg");
+    background-size: 110%;
+}
+
+
+/* man-4  */
+
+.group .img .man-4{
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    background-image: url("../media/img/wa_culture_ethnic_groups_yunnan_china.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: left;
+    margin-right: 20px;
+    cursor: pointer;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+    transition: all .3s linear;
+}
+
+.group .img .man-4:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../media/img/wa_culture_ethnic_groups_yunnan_china.jpg");
+    background-size: 110%;
+}
+
+
+/* img-1  */
+
+.group .img-1{
+    margin-top: 50px;
+}
+
+.group .img-1:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.group .img-1 p{
+    color: #fff;
+    display: inline-block;
+    transform: translate(50px,38px);
+}
+
+/* man-1  */
+
+.group .img-1 .man-1{
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    background-image: url("../media/img/tibetan_culture_ethnic_groups_yunnan_china.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: left;
+    margin-right: 20px;
+    cursor: pointer;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+    transition: all .3s linear;
+}
+
+.group .img-1 .man-1:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../media/img/tibetan_culture_ethnic_groups_yunnan_china.jpg");
+    background-size: 110%;
+}
+
+
+/* man-2  */
+
+.group .img-1 .man-2{
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    background-image: url("../media/img/shui_culture_ethnic_groups_yunnan_china.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: left;
+    margin-right: 20px;
+    cursor: pointer;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+    transition: all .3s linear;
+}
+
+.group .img-1 .man-2:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../media/img/shui_culture_ethnic_groups_yunnan_china.jpg");
+    background-size: 110%;
+}
+
+
+/* man-3  */
+
+.group .img-1 .man-3{
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    background-image: url("../media/img/pumi_culture_ethnic_groups_yunnan_china.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: left;
+    margin-right: 20px;
+    cursor: pointer;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+    transition: all .3s linear;
+}
+
+.group .img-1 .man-3:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../media/img/pumi_culture_ethnic_groups_yunnan_china.jpg");
+    background-size: 110%;
+}
+
+
+/* man-4  */
+
+.group .img-1 .man-4{
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    background-image: url("../media/img/nu_culture_ethnic_groups_yunnan_china.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: left;
+    margin-right: 20px;
+    cursor: pointer;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+    transition: all .3s linear;
+}
+
+.group .img-1 .man-4:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../media/img/nu_culture_ethnic_groups_yunnan_china.jpg");
+    background-size: 110%;
+}
+
+
+.group .btn{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.group .btn button{
+    width: 205px;
+    height: 55px;
+    border-radius: 100px;
+    border: none;
+    background: #ff490b;
+    box-shadow: 0px 5px 20px 0 #9c81e766;
+    text-align: center;
+    cursor: pointer;
+}
+
+.group .btn button:hover{
+    opacity: 0.7;
+}
+
+
+.group .btn button span{
+    font-size: 18px;
+    color: #fff;
+   display: inline-block;
+   transform: translate(8px,-3px);
+}
+
+
+
+/* End Group Section  */
+
+
+/* Start Attraction Section  */
+
+.attraction{
+    width: 100%;
+    background-color: #FAF4F0;
+    padding: 70px 0px;
+}
+
+.attraction .tittle{
+    text-align: center;
+    position: relative;
+}
+
+.attraction .tittle h2{
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    line-height: 1.2;
+    background: linear-gradient(to right, #3264f5 2%, #aa0bb2 82%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.attraction .tittle p{
+    color: #212529;
+    padding-top: 30px;
+}
+
+
+.attraction .divider{
+    width: 355px;
+    height: 2px;
+    background: linear-gradient(to right, #aa0bb2 2%, #3264f5 82%);
+    box-shadow: 0 0 15px #2983c4bd;
+    margin: 10px auto 0px;
+    
+}
+
+.attraction .logo{
+    position: absolute;
+    top: 2650px;
+    left: 650px;
+    background-color: #FAF4F0;
+    padding: 5px;
+    
+}
+
+/* Gellary-1  */
+
+.gellary-1{
+    margin-top: 50px;
+}
+
+.gellary-1:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.gellary-1 h3{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    padding: 50px;
+    display: inline-block;
+}
+
+/* pic-1  */
+
+.gellary-1 .pic-1{
+    width: 550px;
+    height: 415px;
+    background-image: url('../media/img/The_Grand_Mengle_Buddha_Temple_Xishuangbanna_China.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-right: 15px;
+    cursor: pointer;
+    float: left;
+    position: relative;
+}
+
+.gellary-1 .pic-1 h3{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    padding: 50px;
+    display: inline-block;
+}
+
+.gellary-1 .pic-1:hover h3{
+    display: none;
+}
+
+/* overly-1  */
+
+.gellary-1 .pic-1 .overly-1{
+    width: 488px;
+    height: 355px;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    border: 1px solid #fff;
+    outline: 32px solid rgba(0,0,0,0.6);
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.gellary-1 .pic-1:hover .overly-1 h3{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    padding: 50px;
+    display: inline-block;
+}
+
+.gellary-1 .pic-1:hover .overly-1{
+    opacity: 1;
+}
+
+/* pic-2 */
+
+.gellary-1 .pic-2{
+    width: 265px;
+    height: 415px;
+    background-color: #FAF4F0;
+    margin-right: 15px;
+    float: left;
+    position: relative;
+}
+
+
+
+/* img-1  */
+
+.gellary-1 .pic-2 .img-1{
+    width: 100%;
+    height: 200px;
+    background-image: url('../media/img/Honghe_Hani_Rice_Terraces_Yunnan.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.gellary-1 .pic-2 .img-1 h3{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    padding: 50px;
+    display: inline-block;
+}
+
+.gellary-1 .pic-2 .img-1:hover h3{
+    display: none;
+}
+
+/* overly-1  */
+
+.gellary-1 .pic-2 .img-1 .overly-2{
+    width: 203px;
+    height: 140px;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    border: 1px solid #fff;
+    outline: 32px solid rgba(0,0,0,0.6);
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+.gellary-1 .pic-2 .img-1:hover .overly-2 h3{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    padding: 35px;
+    display: inline-block;
+}
+
+.gellary-1 .pic-2 .img-1:hover .overly-2{
+    opacity: 1;
+}
+
+/* img-2  */
+
+
+.gellary-1 .pic-2 .img-2{
+    width: 100%;
+    height: 200px;
+    background-image: url('../media/img/Meili_Snow_Mountain_Yunnan_China.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-size: 100%;
+    position: relative;
+}
+
+.gellary-1 .pic-2 .img-2 h3{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    padding: 50px;
+    display: inline-block;
+}
+
+.gellary-1 .pic-2 .img-2:hover h3{
+    display: none;
+}
+
+/* overly-3  */
+
+.gellary-1 .pic-2 .img-2 .overly-3{
+    width: 203px;
+    height: 140px;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    border: 1px solid #fff;
+    outline: 32px solid rgba(0,0,0,0.6);
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+.gellary-1 .pic-2 .img-2:hover .overly-3 h3{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    padding: 35px;
+    display: inline-block;
+}
+
+.gellary-1 .pic-2 .img-2:hover .overly-3{
+    opacity: 1;
+}
+
+/* pic-3  */
+
+.gellary-1 .pic-3{
+    width: 265px;
+    height: 415px;
+    background-color: #FAF4F0;
+    float: left;
+    position: relative;
+}
+
+/* img-1  */
+
+.gellary-1 .pic-3 .img-1{
+    width: 100%;
+    height: 200px;
+    background-image: url('../media/img/Fuxian_Lake_Yuxi_Yunnan.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.gellary-1 .pic-3 .img-1 h3{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    padding: 50px;
+    display: inline-block;
+}
+
+.gellary-1 .pic-3 .img-1:hover h3{
+    display: none;
+}
+
+/* overly-4  */
+
+.gellary-1 .pic-3 .img-1 .overly-4{
+    width: 203px;
+    height: 140px;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    border: 1px solid #fff;
+    outline: 32px solid rgba(0,0,0,0.6);
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+.gellary-1 .pic-3 .img-1:hover .overly-4 h3{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    padding: 35px;
+    display: inline-block;
+}
+
+.gellary-1 .pic-3 .img-1:hover .overly-4{
+    opacity: 1;
+}
+
+/* img-2  */
+
+.gellary-1 .pic-3 .img-2{
+    width: 100%;
+    height: 200px;
+    background-image: url('../media/img/Rape_Flower_Field_Luoping_Yunnan.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-size: 100%;
+    position: relative;
+}
+
+.gellary-1 .pic-3 .img-2 h3{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    padding: 50px;
+    display: inline-block;
+}
+
+.gellary-1 .pic-3 .img-2:hover h3{
+    display: none;
+}
+
+/* overly-5  */
+
+.gellary-1 .pic-3 .img-2 .overly-5{
+    width: 203px;
+    height: 140px;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    border: 1px solid #fff;
+    outline: 32px solid rgba(0,0,0,0.6);
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+.gellary-1 .pic-3 .img-2:hover .overly-5 h3{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    padding: 35px;
+    display: inline-block;
+}
+
+.gellary-1 .pic-3 .img-2:hover .overly-5{
+    opacity: 1;
+}
+
+/* Gellary-2  */
+
+.gellary-2{
+    margin-top: 15px;
+}
+
+.gellary-2:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.gellary-2 h3{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    padding: 50px;
+    display: inline-block;
+}
+
+
+/* pic-1 */
+
+.gellary-2 .pic-1{
+    width: 265px;
+    height: 415px;
+    background-color: #FAF4F0;
+    margin-right: 15px;
+    float: left;
+    position: relative;
+}
+
+
+
+/* img-1  */
+
+.gellary-2 .pic-1 .img-1{
+    width: 100%;
+    height: 200px;
+    background-image: url('../media/img/ganlanba_dai_minority_park_culture_yunnan_china.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.gellary-2 .pic-1 .img-1 h3{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    padding: 50px;
+    display: inline-block;
+}
+
+.gellary-2 .pic-1 .img-1:hover h3{
+    display: none;
+}
+
+/* overly-1  */
+
+.gellary-2 .pic-1 .img-1 .overly-1{
+    width: 203px;
+    height: 140px;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    border: 1px solid #fff;
+    outline: 32px solid rgba(0,0,0,0.6);
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+.gellary-2 .pic-1 .img-1:hover .overly-1 h3{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    padding: 30px;
+    display: inline-block;
+}
+
+.gellary-2 .pic-1 .img-1:hover .overly-1{
+    opacity: 1;
+}
+
+/* img-2  */
+
+
+.gellary-2 .pic-1 .img-2{
+    width: 100%;
+    height: 200px;
+    background-image: url('../media/img/old_town_of_dali_yunnan_china_01.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-size: 100%;
+    position: relative;
+}
+
+.gellary-2 .pic-1 .img-2 h3{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    padding: 50px;
+    display: inline-block;
+}
+
+.gellary-2 .pic-1 .img-2:hover h3{
+    display: none;
+}
+
+/* overly-2  */
+
+.gellary-2 .pic-1 .img-2 .overly-2{
+    width: 203px;
+    height: 140px;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    border: 1px solid #fff;
+    outline: 32px solid rgba(0,0,0,0.6);
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+.gellary-2 .pic-1 .img-2:hover .overly-2 h3{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    padding: 35px;
+    display: inline-block;
+}
+
+.gellary-2 .pic-1 .img-2:hover .overly-2{
+    opacity: 1;
+}
+
+/* pic-2  */
+
+.gellary-2 .pic-2{
+    width: 265px;
+    height: 415px;
+    background-color: #FAF4F0;
+    float: left;
+    margin-right: 15px;
+    position: relative;
+}
+
+/* img-1  */
+
+.gellary-2 .pic-2 .img-1{
+    width: 100%;
+    height: 200px;
+    background-image: url('../media/img/dukezong_ancient_town_yunnan_china_01.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.gellary-2 .pic-2 .img-1 h3{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    padding: 50px;
+    display: inline-block;
+}
+
+.gellary-2 .pic-2 .img-1:hover h3{
+    display: none;
+}
+
+/* overly-3  */
+
+.gellary-2 .pic-2 .img-1 .overly-3{
+    width: 203px;
+    height: 140px;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    border: 1px solid #fff;
+    outline: 32px solid rgba(0,0,0,0.6);
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+.gellary-2 .pic-2 .img-1:hover .overly-3 h3{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    padding: 30px;
+    display: inline-block;
+}
+
+.gellary-2 .pic-2 .img-1:hover .overly-3{
+    opacity: 1;
+}
+
+/* img-2  */
+
+.gellary-2 .pic-2 .img-2{
+    width: 100%;
+    height: 200px;
+    background-image: url('../media/img/qingkou_hani_village_culture_ethnic_groups_yunnan_china_02.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-size: 100%;
+    position: relative;
+}
+
+.gellary-2 .pic-2 .img-2 h3{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    padding: 50px;
+    display: inline-block;
+}
+
+.gellary-2 .pic-2 .img-2:hover h3{
+    display: none;
+}
+
+/* overly-4  */
+
+.gellary-2 .pic-2 .img-2 .overly-4{
+    width: 203px;
+    height: 140px;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    border: 1px solid #fff;
+    outline: 32px solid rgba(0,0,0,0.6);
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+.gellary-2 .pic-2 .img-2:hover .overly-4 h3{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    padding: 30px;
+    display: inline-block;
+}
+
+.gellary-2 .pic-2 .img-2:hover .overly-4{
+    opacity: 1;
+}
+
+/* pic-3  */
+
+.gellary-2 .pic-3{
+    width: 550px;
+    height: 415px;
+    background-image: url('../media/img/yunnan_nationalities_village_01.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-right: 15px;
+    cursor: pointer;
+    float: left;
+    position: relative;
+}
+
+.gellary-2 .pic-3 h3{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    padding: 50px;
+    display: inline-block;
+}
+
+.gellary-2 .pic-3:hover h3{
+    display: none;
+}
+
+/* overly-5  */
+
+.gellary-2 .pic-3 .overly-5{
+    width: 488px;
+    height: 355px;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    border: 1px solid #fff;
+    outline: 32px solid rgba(0,0,0,0.6);
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.gellary-2 .pic-3:hover .overly-5 h3{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    padding: 50px;
+    display: inline-block;
+}
+
+.gellary-2 .pic-3:hover .overly-5{
+    opacity: 1;
+}
+
+
+.attraction .btn{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.attraction .btn button{
+    width: 205px;
+    height: 55px;
+    border-radius: 100px;
+    border: none;
+    background: #ff490b;
+    box-shadow: 0px 5px 20px 0 #9c81e766;
+    text-align: center;
+    cursor: pointer;
+}
+
+.attraction .btn button:hover{
+    opacity: 0.7;
+}
+
+
+.attraction .btn button span{
+    font-size: 18px;
+    color: #fff;
+   display: inline-block;
+   transform: translate(8px,-3px);
+}
+
+
+
+/* End Attraction Section  */
+
+
+/* Start Plan Section  */
+
+.plan{
+    width: 100%;
+    background-image: url('../media/img/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 0px;
+}
+
+.plan .tittle{
+    text-align: center;
+    position: relative;
+}
+
+.plan .tittle h2{
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.plan .tittle p{
+    color: #fff;
+    padding-top: 30px;
+}
+
+.plan .divider{
+    width: 355px;
+    height: 2px;
+    background: #fff;
+    box-shadow: 0 0 15px #fff;
+    margin: 20px auto 0px;
+    
+}
+
+.plan .logo{
+    position: absolute;
+    top: 3910px;
+    left: 650px;
+    background: linear-gradient(rgb(#b2eaff),rgb(#fff));
+    padding: 5px;
+    padding-left: 10px;
+}
+
+/* card  */
+
+.plan .card{
+    margin-top: 60px;
+}
+
+.plan .card::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.plan .card a{
+    padding: 10px;
+    display: inline-block;
+    color: #0056b3;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.plan .card a:hover{
+    color: #ff8257;
+}
+
+.plan .card p{
+    margin-left: 10px;
+   
+}
+
+/* card-1  */
+
+.plan .card .card-1{
+    width: 362px;
+    height: 405px;
+    background-color: #fff;
+    float: left;
+    margin-right: 15px;
+}
+
+.plan .card .card-1 .img-1{
+    width: 100%;
+    height: 240px;
+    background-image: url("../media/img/Zhujiajiao_Water_Town_Shanghai_China.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+.plan .card .card-1 .img-1:hover{
+    background-image: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)), url("../media/img/Zhujiajiao_Water_Town_Shanghai_China.jpg");
+    background-size: 115%;
+}
+
+/* card-2  */
+
+.plan .card .card-2{
+    width: 362px;
+    height: 405px;
+    background-color: #fff;
+    float: left;
+    margin-right: 15px;
+}
+
+.plan .card .card-2 .img-2{
+    width: 100%;
+    height: 240px;
+    background-image: url("../media/img/Li_River_Guilin_China.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+.plan .card .card-2 .img-2:hover{
+    background-image: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)), url("../media/img/Li_River_Guilin_China.jpg");
+    background-size: 115%;
+}
+
+
+/* card-3  */
+
+.plan .card .card-3{
+    width: 362px;
+    height: 405px;
+    background-color: #fff;
+    float: left;
+}
+
+.plan .card .card-3 .img-3{
+    width: 100%;
+    height: 240px;
+    background-image: url("../media/img/Stone_Forest_Nature_Attractions_Yunnan_China.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+.plan .card .card-3 .img-3:hover{
+    background-image: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)), url("../media/img/Stone_Forest_Nature_Attractions_Yunnan_China.jpg");
+    background-size: 115%;
+}
+
+
+/* End Plan Section  */
+
+
+
+/* Start Contact Section  */
+
+.contact{
+    width: 100%;
+    background-color: #1B1B1B;
+    padding: 50px 0px;
+}
+
+.contact::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.contact p{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #EFEFEF;
+}
+
+.contact ul li{
+    padding: 10px 0px 0px;
+}
+
+.contact ul li a{
+    font-size: 16px;
+    color: #bbb;
+}
+
+.contact ul li a:hover{
+    color: #ff8257;;
+}
+
+/* part-1  */
+
+.contact .part-1{
+    width: 380px;
+    float: left;
+}
+
+
+/* part-2  */
+
+.contact .part-2{
+    width: 380px;
+    float: left;
+}
+
+/* part-3  */
+
+.contact .part-3{
+    width: 360px;
+    float: left;
+}
+
+.contact .part-3 form input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact .part-3 form button{
+    padding: 8px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    background: linear-gradient( 90deg,#6b61f4 0%,#54a0fe 50%,#3dddfb 100% ) !important;
+    border: none;
+    color: #fff;
+    box-shadow: 0 0 5px #54a0fe;
+}
+
+
+/* End Contact Section  */
+
+
+/* Start copyright Section  */
+
+.copy{
+    width: 100%;
+    height: 100px;
+    padding: 30px 0px;
+    background-color: #2D2D2D;
+    text-align: center;
+}
+
+.copy p{
+    color: #767780;
+}
+
+.copy p a{
+    color: #999;
+}
+
+.copy p a:hover{
+    color: #6e88c8;
+}
+
+
+/* End copyright Section  */

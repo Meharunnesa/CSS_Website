@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+input:focus{
+    outline: none;
+} 
+
+.amazon .logo{
+    text-align: center;
+}
+
+.amazon .container{
+    width: 300px;
+    background-color: #fff;
+    margin: 10px auto;
+    padding: 30px;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 3px;
+}
+
+.amazon .container .text h2{
+    font-family: "Amazon Ember",Arial,sans-serif;
+    color: #111;
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.amazon .container .text p{
+    font-family: "Amazon Ember",Arial,sans-serif;
+    color: #111;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+
+.amazon .container input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgb(255 255 255 / 50%), 0 1px 0 rgb(0 0 0 / 7%) inset;
+    margin-bottom: 15px;
+}
+
+.amazon .container input:focus{
+    border-color: #e77600;
+    box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
+}
+
+.amazon .container button{
+    width: 100%;
+    padding: 10px;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    background: #f0c14b;
+    color: #111;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgb(255 255 255 / 50%), 0 1px 0 rgb(0 0 0 / 7%) inset;
+    cursor: pointer;
+}
+
+.amazon .container button:hover{
+    background-color: #f5bb2a;
+}
+
+.amazon .container button:focus{
+    border-color: #e77600;
+    box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
+}
+
+.amazon .container .text{
+    margin-top: 20px;
+}
+
+.amazon .container .text-1 p{
+    font-family: "Amazon Ember",Arial,sans-serif;
+    color: #111;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+
+
+.amazon .container .text-1 p a{
+    color: #0066c0;
+}
+
+.amazon .container .text-1 p a:hover{
+    color: #f5bb2a;
+    text-decoration: underline;
+}
+
+.amazon .container .help{
+    margin-top: 30px;
+}
+
+.amazon .container .help a{
+    font-family: "Amazon Ember",Arial,sans-serif;
+    color: #0066c0;
+    font-size: 13px;
+}
+
+.amazon .container .help a:hover{
+    color: #f5bb2a;
+    text-decoration: underline;
+}
+
+.amazon .new{
+    width: 300px;
+    background-color: #fff;
+    margin: 10px auto;
+}
+
+.amazon .new:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+
+.amazon .new .left{
+    width: 100px;
+    height: 1px;
+    background-color: #d3d0d0;
+    float: left;
+    margin-top: 10px;
+    margin-right: 3px;
+}
+
+.amazon .new .middle{
+    width: 92px;
+    float: left;
+}
+
+.amazon .new .middle p{
+    display: inline-block;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    color: #949494;
+    font-size: 12px;
+    margin-left: 1px;
+}
+
+.amazon .new .right{
+    width: 100px;
+    height: 1px;
+    background-color: #d3d0d0;
+    float: left;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+.amazon .new button{
+    margin-top: 10px;
+    width: 100%;
+    padding: 7px;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    color: #111;
+    background: #e7e9ec;
+    border-radius: 3px;
+    border-color: #adb1b8 #a2a6ac #8d9096;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgb(255 255 255 / 50%), 0 1px 0 rgb(0 0 0 / 7%) inset;
+    cursor: pointer;
+}
+
+.amazon .new button:hover{
+    background-color: #d8d9da;
+}
+
+.amazon .new button:focus{
+    border-color: #e77600;
+    box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
+}
+
+.amazon .divider{
+    margin: 20px 0;
+    width: 100%;
+    height: 44px;
+    display: block;
+    background: linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3px,transparent);
+    z-index: 0;
+    zoom: 1;
+    margin-bottom: -18px;
+}
+
+.amazon .divider:after{
+    display: block;
+    z-index: 1;
+    content: " ";
+    background: linear-gradient(to right,#fff,rgba(255,255,255,0),#fff);
+}
+
+.amazon .footer{
+    text-align: center;
+}
+
+.amazon .footer ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+}
+
+.amazon .footer ul li a{
+    font-family: "Amazon Ember",Arial,sans-serif;
+    color: #0066c0;
+    font-size: 12px;
+}
+
+.amazon .footer ul li a:hover{
+    color: #f5bb2a;
+    text-decoration: underline;
+}
+
+.amazon .footer p{
+    font-family: "Amazon Ember",Arial,sans-serif;
+    color: #949494;
+    font-size: 11px;
+}

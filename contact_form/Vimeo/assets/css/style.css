@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+input:focus{
+    outline: none;
+} 
+
+.vimeo{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../media/img/bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+
+.vimeo .container{
+    width: 403px;
+    background-color: #fff;
+    margin: 45px auto;
+    border-radius: 3px;
+}
+
+.vimeo .container .header{
+    width: 100%;
+    height: 70px;
+    background-color: #f2f4f5;
+    border-bottom: 1px solid #d0d8db;
+    text-align: center;
+}
+
+.vimeo .container .header h2{
+    display: inline-block;
+    font-size: 20px;
+    color: #1a2e3b;
+    padding: 25px;
+}
+
+.vimeo .container .header i{
+    font-size: 25px;
+    font-weight: 700;
+    color: #1a2e3b;
+    display: inline-block;
+    transform: translate(65px,2px);
+    cursor: pointer;
+}
+
+.vimeo .container .form{
+    text-align: center;
+}
+
+
+.vimeo .container .form form input{
+    display: block;
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 350px;
+    padding: 17px;
+    border: 1px solid #D0D8DB;
+    border-radius: 3px;
+}
+
+.vimeo .container .form form input:nth-child(2){
+    margin: 10px 0px 10px 25px;
+}
+
+.vimeo .container .form form input::placeholder{
+    font-size: 16px;
+    color: #879cab;
+}
+
+.vimeo .container .form form input:focus{
+    border: 2px solid #D0D8DB;
+}
+
+.vimeo .container .form form .forgot{
+    text-align: left;
+}
+
+.vimeo .container .form form .forgot a{
+    margin-left: 25px;
+    color: #17272E;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.vimeo .container .form form .btn-1 button{
+    width: 350px;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: #7FC400;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #7FC400;
+    border-radius: 3px;
+}
+
+.vimeo .container .form form .btn-1 button:hover{
+    background-color: #5A9E02;
+    border: 1px solid #5A9E02;
+}
+
+.vimeo .container .form form p{
+    font-size: 12px;
+    color: #17272E;
+    padding: 10px 0px 0px;
+}
+
+.vimeo .container .form form .btn-2 button img{
+    width: 28px;
+    display: inline-block;
+    transform: translate(-67px,-1px);
+}
+
+.vimeo .container .form form .btn-2 button p{
+    
+    display: inline-block;
+    transform: translate(-18px,-9px);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.vimeo .container .form form .btn-2 button{
+    width: 350px;
+    padding: 8px 8px 0px 8px;
+    margin-top: 10px;
+    background-color: #4267b2;
+    border: 2px solid #2f579e;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.vimeo .container .form form .btn-2 button:hover{
+    background-color: #2f579e;
+    border: 1px solid #2f579e;
+}
+
+
+.vimeo .container .form form .btn-2 button:focus{
+    box-shadow: inset 0 0 0 3px #2f579e;
+}
+
+.vimeo .container .form form .btn-3 button img{
+    width: 40px;
+    display: inline-block;
+    transform: translate(-77px,-4px);
+}
+
+.vimeo .container .form form .btn-3 button p{
+    
+    display: inline-block;
+    transform: translate(-28px,-19px);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.vimeo .container .form form .btn-3 button{
+    width: 350px;
+    height: 50px;
+    padding: 8px 8px 0px 8px;
+    margin-top: 10px;
+    background-color: #4285f4;
+    border: 2px solid #4285f4;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.vimeo .container .form form .btn-3 button:hover{
+    background-color: #3367d6;
+    border: 1px solid #3367d6;
+}
+
+.vimeo .container .form form .btn-3 button:focus{
+    box-shadow: inset 0 0 0 3px #3367d6;
+}
+
+.vimeo .container .form form .btn-4 button img{
+    width: 40px;
+    color: #fff;
+    display: inline-block;
+    transform: translate(-77px,-4px);
+}
+
+.vimeo .container .form form .btn-4 button p{
+    
+    display: inline-block;
+    transform: translate(-28px,-19px);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.vimeo .container .form form .btn-4 button{
+    width: 350px;
+    height: 50px;
+    padding: 8px 8px 0px 8px;
+    margin-top: 10px;
+    background-color: #000;
+    border: 2px solid #000;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.vimeo .container .form form .btn-4 button:hover{
+    background-color: #262626;
+    border: 1px solid #262626;
+}
+
+.vimeo .container .form form .btn-4 button:focus{
+    box-shadow: inset 0 0 0 3px #262626;
+}
+
+.vimeo .container .form form .account{
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.vimeo .container .form form .account p{
+    padding-bottom: 40px;
+    color: #4E5A5E;
+    font-size: 14px;
+}
+
+.vimeo .container .form form .account p a{
+    color: #00ADEF
+}

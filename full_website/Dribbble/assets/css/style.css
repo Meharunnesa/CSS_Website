@@ -1,0 +1,3635 @@
+@font-face {
+    font-family: "Hass Rg" ;
+    src: url('../fonts/NHaasGroteskTXPro-55Rg.ttf');
+}
+
+@font-face {
+    font-family: "Hass Md" ;
+    src: url('../fonts/NHaasGroteskTXPro-65Md.ttf');
+}
+
+@font-face {
+    font-family: "Hass Bd" ;
+    src: url('../fonts/NHaasGroteskTXPro-75Bd.ttf');
+}
+
+/* Start Resating Code  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+    font-family: 'Lato', sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+input:focus{
+    outline: none;
+} 
+
+ul li{
+    list-style: none;
+}
+
+/* End Resatting Code  */
+
+.container-1{
+    width: 1308px;
+    background-color: red;
+    margin: 0px auto;
+}
+
+/* Start Header Styling  */
+
+.header{
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #dadada;
+}
+
+.header:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+/* Start logo  */
+
+.header .logo{
+    width: 8%;
+    float: left;
+}
+
+.header .logo a:hover{
+    opacity: 0.6;
+}
+
+/* Start Main Menu  */
+
+.header .main-menu{
+    width: 72%;
+    float: left;
+}
+
+.header .main-menu ul li{
+    display: inline-block;
+    padding: 30px 20px;
+}
+
+.header .main-menu ul li:nth-child(1){
+    padding-left: 0px;
+}
+
+.header .main-menu ul li a{
+    color: #6e6d7a;
+    font-size: 14px;
+    font-family: "Hass Rg";
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.header .main-menu ul li a:hover{
+    color: #ea4c89;
+}
+
+/* Start Site Menu  */
+
+.header .site-menu{
+    width: 20%;
+    float: left;
+    text-align: right;
+}
+
+.header .site-menu ul li{
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.header .site-menu ul li:last-child{
+    padding-right: 0px;
+}
+
+.header .site-menu ul li a{
+    font-family: "Hass Md";
+    color: #6e6d7a;
+    font-size: 16px;
+    font-family: "Hass Rg";
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.header .site-menu ul li a i{
+    font-size: 18px;
+    display: inline-block;
+    transform: translate(0px,3px);
+}
+
+.header .site-menu ul li a button{
+    font-family: "Hass Md";
+    padding: 10px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    background-color: #ea4c89;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.header .site-menu ul li a button:hover{
+    background-color: #f082ac;
+}
+
+/* End Header Styling  */
+
+.container-2{
+    width: 1204px;
+    height: 480px;
+    background-color: #F9F8FD;
+    margin: 0px auto;
+}
+
+/* Start Home Section  */
+
+.home{
+    width: 100%;
+    height: 480px;
+    background-color: #F9F8FD;
+}
+
+.home:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+/* Start Left Section  */
+
+.home .left-section{
+    width: 50%;
+    float: left;
+}
+
+.home .left-section .heading{
+    margin-top: 125px;
+    margin-bottom: 18px;
+}
+
+.home .left-section .heading h1{
+    font-family: "Hass Bd";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #0d0c22;
+}
+
+.home .left-section .text p{
+    font-family: "Hass Rg";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #373655;
+}
+
+.home .left-section .btn{
+    margin-top: 20px;
+}
+
+.home .left-section .btn button{
+    padding: 10px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    background-color: #ea4c89;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.home .left-section .btn button:hover{
+    background-color: #f082ac;
+}
+
+/* Start Right Section  */
+
+.home .right-section{
+    width: 50%;
+    float: left;
+}
+
+.home .right-section .img{
+    margin-top: 30px;
+    text-align: right;
+}
+
+.home .right-section .text{
+    text-align: right;
+    margin-top: 20px;
+}
+
+.home .right-section .text p{
+    font-family: "Hass Rg";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #9e9ea7;
+}
+
+.home .right-section .text p a{
+    font-family: "Hass Rg";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #9e9ea7;
+    text-decoration: underline;
+}
+
+ /* End Home Section  */
+
+
+
+ /* Start Menu Section  */
+
+ .menu{
+     width: 100%;
+     background-color: #fff;
+ }
+
+ .container-3{
+    width: 1204px;
+    background-color: #fff;
+    margin: 0px auto;
+}
+
+ .menu:after{
+     content: " ";
+     display: block;
+     clear: both;
+ }
+
+ .menu .btn-1{
+     width: 18%;
+     float: left;
+     padding: 30px 0px;
+ }
+
+ .menu .btn-1 button{
+     width: 115px;
+     height: 40px;
+     background-color: #fff;
+     border: 1px solid #9e9ea7;
+    padding: 5px;
+     border-radius: 8px;
+     cursor: pointer;
+ }
+
+ .menu .btn-1 button:hover{
+    box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+    border: none;
+ }
+
+ .menu .btn-1 button span{
+    display: inline-block;
+    transform: translate(-15px,0px);
+    font-family: "Hass Rg";
+    font-size: 14px;
+    color: #6e6d7a;
+ }
+
+ .menu .btn-1 button i{
+    display: inline-block;
+    transform: translate(10px,0px);
+    color: #6e6d7a;
+ }
+
+
+ .menu .item{
+    width: 67%;
+    float: left;
+    padding: 30px 0px;
+}
+
+.menu .item ul li{
+    display: inline-block;
+}
+
+.menu .item ul li a{
+    display: inline-block;
+    padding: 10px;
+    font-family: "Hass Rg";
+    font-size: 14px;
+    color: #6e6d7a;
+}
+
+.menu .item ul li:first-child a{
+    display: inline-block;
+    padding: 15px;
+    font-family: "Hass Rg";
+    font-weight: 500;
+    background: rgba(13,12,34,0.05);
+    border-radius: 8px;
+    font-size: 14px;
+    color: #0d0c22;
+}
+
+.menu .item ul li a:hover{
+    color: #0d0c22;
+}
+
+
+.menu .btn-2{
+    width: 15%;
+    float: left;
+    text-align: right;
+    padding: 30px 0px;
+}
+
+.menu .btn-2 button{
+    width: 115px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #9e9ea7;
+   padding: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+.menu .btn-2 button span{
+   display: inline-block;
+   transform: translate(8px,0px);
+   font-family: "Hass Rg";
+   font-size: 14px;
+   color: #0d0c22;
+}
+
+.menu .btn-2 button i{
+   display: inline-block;
+   transform: translate(-5px,0px);
+   color: #0d0c22;
+}
+
+ /* End Menu Section  */
+
+
+ .container-3{
+    width: 1204px;
+    background-color: #fff;
+    margin: 0px auto;
+}
+
+  /* Start Product Gellary Section  */
+
+
+  
+
+.product-gellary{
+    width: 100%;
+    background-color: #fff;
+}
+
+ .product-gellary  .product:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+/* Start Product Gellary-1  */
+
+/* Product-1  */
+
+.product-gellary .product .product-1{
+    width: 276px;
+    height: 240px;
+    float: left;
+    margin-bottom: 25px;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.product-gellary .product .product-1 .product-img .product-item{
+    width: 100%;
+    height: 206px;
+    background-image: url('../media/img/post-1.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+   
+}
+
+.product-gellary .product .product-1 .product-img .product-item i{
+    display: inline-block;
+    transform: translate(240px,15px);
+    color: #fff;
+    font-size: 20px;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.product-gellary .product .product-1 .product-img .product-item:hover i{
+    opacity: 0;
+}
+
+
+.product-gellary .product .product-1 .product-img .product-content{
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.2));
+  position: absolute;
+  top: 147px;
+  left: 0px;
+  box-shadow: -5px -2px 15px rgba(14, 12, 12, 0.1);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.product-gellary .product .product-1 .product-img:hover  .product-content{
+  opacity: 1;
+}
+
+.product-gellary .product .product-1 .product-img .product-content:after{
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.product-gellary .product .product-1 .product-img .product-content .text{
+  width: 70%;
+  float: left;
+}
+
+.product-gellary .product .product-1 .product-img .product-content .text p{
+  display: inline-block;
+  font-family: "Hass Md";
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  padding: 10px 10px 30px 20px;
+}
+
+.product-gellary .product .product-1 .product-img .product-content .file{
+  width: 30%;
+  float: left;
+}
+
+.product-gellary .product .product-1 .product-img .product-content .file i{
+  padding: 8px;
+  background-color: #fff;
+  color: #6e6d7a;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.product-gellary .product .product-1 .product-img .product-content .file i:nth-child(1){
+  margin-right: 5px;
+}
+
+.product-gellary .product .product-1 .author{
+  width: 100%;
+ 
+}
+
+.product-gellary .product .product-1 .author:after{
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.product-gellary .product .product-1 .author .left-section{
+  width: 50%;
+  float: left;
+}
+
+.product-gellary .product .product-1 .author .left-section ul li{
+  display: inline-block;
+  padding: 3px;
+}
+
+.product-gellary .product .product-1 .author .left-section ul li a img{
+  width: 25px;
+  
+}
+
+.product-gellary .product .product-1 .author .left-section ul li a span{
+  font-family: "Hass Rg";
+  font-size: 14px;
+  font-weight: 600;
+  color: #0d0c22;
+  display: inline-block;
+  transform: translate(-6px,-7px);
+}
+
+.product-gellary .product .product-1 .author .left-section ul li a button{
+  border: none;
+  padding:2px 3px;
+  background-color: #9e9ea7;
+  border-radius: 3px;
+  font-family: "Hass Rg";
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  transform: translate(-7px,-6px);
+}
+
+.product-gellary .product .product-1 .author .left-section ul li a button:hover{
+  background-color: #ea4c89;
+}
+
+
+.product-gellary .product .product-1 .author .right-section{
+  width: 50%;
+  float: left;
+  text-align: right;
+}
+
+
+.product-gellary .product .product-1 .author .right-section ul li{
+  display: inline-block;
+  padding:6px 3px;
+}
+
+.product-gellary .product .product-1 .author .right-section ul li:last-child{
+  padding-right: 7px;
+}
+
+.product-gellary .product .product-1 .author .right-section ul li a{
+  font-family: "Hass Rg";
+  font-size: 12px;
+  font-weight: 600;
+  color: #0d0c22;
+  cursor: text;
+}
+
+.product-gellary .product .product-1 .author .right-section ul li a i{
+  color: #9e9ea7;
+}
+
+.product-gellary .product .product-1 .author .right-section ul li a i:hover{
+  color: #ea4c89;
+  cursor: pointer;
+}
+
+/* Product-2  */
+
+.product-gellary .product .product-2{
+  width: 276px;
+  height: 240px;
+  float: left;
+  margin-left: 32px;
+  margin-bottom: 25px;
+  position: relative;
+  cursor: pointer;
+}
+
+
+.product-gellary .product .product-2 .product-img .product-item{
+  width: 100%;
+  height: 206px;
+  background-image: url('../media/img/post-2.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+ 
+}
+
+.product-gellary .product .product-2 .product-img .product-item i{
+  display: inline-block;
+  transform: translate(240px,15px);
+  color: #fff;
+  font-size: 20px;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.product-gellary .product .product-2 .product-img .product-item:hover i{
+  opacity: 0;
+}
+
+
+.product-gellary .product .product-2 .product-img .product-content{
+width: 100%;
+background: linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.2));
+position: absolute;
+top: 147px;
+left: 0px;
+box-shadow: -5px -2px 15px rgba(14, 12, 12, 0.1);
+opacity: 0;
+transition: 0.5s;
+}
+
+.product-gellary .product .product-2 .product-img:hover  .product-content{
+opacity: 1;
+}
+
+.product-gellary .product .product-2 .product-img .product-content:after{
+content: " ";
+display: block;
+clear: both;
+}
+
+.product-gellary .product .product-2 .product-img .product-content .text{
+width: 70%;
+float: left;
+}
+
+.product-gellary .product .product-2 .product-img .product-content .text p{
+display: inline-block;
+font-family: "Hass Md";
+font-size: 16px;
+font-weight: 500;
+color: #fff;
+padding: 10px 10px 30px 20px;
+}
+
+.product-gellary .product .product-2 .product-img .product-content .file{
+width: 30%;
+float: left;
+}
+
+.product-gellary .product .product-2 .product-img .product-content .file i{
+padding: 8px;
+background-color: #fff;
+color: #6e6d7a;
+border-radius: 8px;
+margin-top: 10px;
+}
+
+.product-gellary .product .product-2 .product-img .product-content .file i:nth-child(1){
+margin-right: 5px;
+}
+
+.product-gellary .product .product-2 .author{
+width: 100%;
+
+}
+
+.product-gellary .product .product-2 .author:after{
+content: " ";
+display: block;
+clear: both;
+}
+
+.product-gellary .product .product-2 .author .left-section{
+width: 55%;
+float: left;
+}
+
+.product-gellary .product .product-2 .author .left-section ul li{
+display: inline-block;
+padding: 3px;
+}
+
+.product-gellary .product .product-2 .author .left-section ul li a img{
+width: 25px;
+height: 25PX;
+border-radius: 50%;
+}
+
+.product-gellary .product .product-2 .author .left-section ul li a span{
+font-family: "Hass Rg";
+font-size: 14px;
+font-weight: 600;
+color: #0d0c22;
+display: inline-block;
+transform: translate(-6px,-7px);
+}
+
+.product-gellary .product .product-2 .author .left-section ul li a button{
+border: none;
+padding:2px 3px;
+background-color: #9e9ea7;
+border-radius: 3px;
+font-family: "Hass Rg";
+font-size: 14px;
+font-weight: 500;
+color: #fff;
+cursor: pointer;
+display: inline-block;
+transform: translate(-7px,-6px);
+}
+
+.product-gellary .product .product-2 .author .left-section ul li a button:hover{
+background-color: #ea4c89;
+}
+
+
+.product-gellary .product .product-2 .author .right-section{
+width: 45%;
+float: left;
+text-align: right;
+}
+
+
+.product-gellary .product .product-2 .author .right-section ul li{
+display: inline-block;
+padding:6px 3px;
+}
+
+.product-gellary .product .product-2 .author .right-section ul li:last-child{
+padding-right: 7px;
+}
+
+.product-gellary .product .product-2 .author .right-section ul li a{
+font-family: "Hass Rg";
+font-size: 12px;
+font-weight: 600;
+color: #0d0c22;
+cursor: text;
+}
+
+.product-gellary .product .product-2 .author .right-section ul li a i{
+color: #9e9ea7;
+}
+
+.product-gellary .product .product-2 .author .right-section ul li a i:hover{
+color: #ea4c89;
+cursor: pointer;
+}
+
+/* Product-3  */
+
+.product-gellary .product .product-3{
+  width: 276px;
+  height: 240px;
+  float: left;
+  margin-left: 32px;
+  margin-bottom: 25px;
+  position: relative;
+  cursor: pointer;
+}
+
+
+.product-gellary .product .product-3 .product-img .product-item{
+  width: 100%;
+  height: 206px;
+  background-image: url('../media/img/post-3.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+ 
+}
+
+.product-gellary .product .product-3 .product-img .product-item i{
+  display: inline-block;
+  transform: translate(240px,15px);
+  color: #9e9ea7;
+  font-size: 20px;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.product-gellary .product .product-3 .product-img .product-item:hover i{
+  opacity: 0;
+}
+
+
+.product-gellary .product .product-3 .product-img .product-content{
+width: 100%;
+background: linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.2));
+position: absolute;
+top: 147px;
+left: 0px;
+box-shadow: -5px -2px 15px rgba(14, 12, 12, 0.1);
+opacity: 0;
+transition: 0.5s;
+}
+
+.product-gellary .product .product-3 .product-img:hover  .product-content{
+opacity: 1;
+}
+
+.product-gellary .product .product-3 .product-img .product-content:after{
+content: " ";
+display: block;
+clear: both;
+}
+
+.product-gellary .product .product-3 .product-img .product-content .text{
+width: 70%;
+float: left;
+}
+
+.product-gellary .product .product-3 .product-img .product-content .text p{
+display: inline-block;
+font-family: "Hass Md";
+font-size: 16px;
+font-weight: 500;
+color: #fff;
+padding: 10px 10px 30px 20px;
+}
+
+.product-gellary .product .product-3 .product-img .product-content .file{
+width: 30%;
+float: left;
+}
+
+.product-gellary .product .product-3 .product-img .product-content .file i{
+padding: 8px;
+background-color: #fff;
+color: #6e6d7a;
+border-radius: 8px;
+margin-top: 10px;
+}
+
+.product-gellary .product .product-3 .product-img .product-content .file i:nth-child(1){
+margin-right: 5px;
+}
+
+.product-gellary .product .product-3 .author{
+width: 100%;
+
+}
+
+.product-gellary .product .product-3 .author:after{
+content: " ";
+display: block;
+clear: both;
+}
+
+.product-gellary .product .product-3 .author .left-section{
+width: 50%;
+float: left;
+}
+
+.product-gellary .product .product-3 .author .left-section ul li{
+display: inline-block;
+padding: 3px;
+}
+
+.product-gellary .product .product-3 .author .left-section ul li a img{
+width: 25px;
+height: 25px;
+border-radius: 50%;
+}
+
+.product-gellary .product .product-3 .author .left-section ul li a span{
+font-family: "Hass Rg";
+font-size: 14px;
+font-weight: 600;
+color: #0d0c22;
+display: inline-block;
+transform: translate(-6px,-7px);
+}
+
+.product-gellary .product .product-3 .author .left-section ul li a button{
+border: none;
+padding:2px 3px;
+background-color: #9e9ea7;
+border-radius: 3px;
+font-family: "Hass Rg";
+font-size: 14px;
+font-weight: 500;
+color: #fff;
+cursor: pointer;
+display: inline-block;
+transform: translate(-7px,-6px);
+}
+
+.product-gellary .product .product-3 .author .left-section ul li a button:hover{
+background-color: #ea4c89;
+}
+
+
+.product-gellary .product .product-3 .author .right-section{
+width: 50%;
+float: left;
+text-align: right;
+}
+
+
+.product-gellary .product .product-3 .author .right-section ul li{
+display: inline-block;
+padding:6px 3px;
+}
+
+.product-gellary .product .product-3 .author .right-section ul li:last-child{
+padding-right: 7px;
+}
+
+.product-gellary .product .product-3 .author .right-section ul li a{
+font-family: "Hass Rg";
+font-size: 12px;
+font-weight: 600;
+color: #0d0c22;
+cursor: text;
+}
+
+.product-gellary .product .product-3 .author .right-section ul li a i{
+color: #9e9ea7;
+}
+
+.product-gellary .product .product-3 .author .right-section ul li a i:hover{
+color: #ea4c89;
+cursor: pointer;
+}
+
+
+/* Product-4  */
+
+.product-gellary .product .product-4{
+  width: 276px;
+  height: 240px;
+  float: left;
+  margin-left: 32px;
+  margin-bottom: 25px;
+  position: relative;
+  cursor: pointer;
+}
+
+
+.product-gellary .product .product-4 .product-img .product-item{
+  width: 100%;
+  height: 206px;
+  background-image: url('../media/img/post-4.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+ 
+}
+
+.product-gellary .product .product-4 .product-img .product-item i{
+  display: inline-block;
+  transform: translate(240px,15px);
+  color: #fff;
+  font-size: 20px;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.product-gellary .product .product-4 .product-img .product-item:hover i{
+  opacity: 0;
+}
+
+
+.product-gellary .product .product-4 .product-img .product-content{
+width: 100%;
+background: linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.2));
+position: absolute;
+top: 147px;
+left: 0px;
+box-shadow: -5px -2px 15px rgba(14, 12, 12, 0.1);
+opacity: 0;
+transition: 0.5s;
+}
+
+.product-gellary .product .product-4 .product-img:hover  .product-content{
+opacity: 1;
+}
+
+.product-gellary .product .product-4 .product-img .product-content:after{
+content: " ";
+display: block;
+clear: both;
+}
+
+.product-gellary .product .product-4 .product-img .product-content .text{
+width: 70%;
+float: left;
+}
+
+.product-gellary .product .product-4 .product-img .product-content .text p{
+display: inline-block;
+font-family: "Hass Md";
+font-size: 16px;
+font-weight: 500;
+color: #fff;
+padding: 10px 10px 30px 20px;
+}
+
+.product-gellary .product .product-4 .product-img .product-content .file{
+width: 30%;
+float: left;
+}
+
+.product-gellary .product .product-4 .product-img .product-content .file i{
+padding: 8px;
+background-color: #fff;
+color: #6e6d7a;
+border-radius: 8px;
+margin-top: 10px;
+}
+
+.product-gellary .product .product-4 .product-img .product-content .file i:nth-child(1){
+margin-right: 5px;
+}
+
+.product-gellary .product .product-4 .author{
+width: 100%;
+
+}
+
+.product-gellary .product .product-4 .author:after{
+content: " ";
+display: block;
+clear: both;
+}
+
+.product-gellary .product .product-4 .author .left-section{
+width: 50%;
+float: left;
+}
+
+.product-gellary .product .product-4 .author .left-section ul li{
+display: inline-block;
+padding: 3px;
+}
+
+.product-gellary .product .product-4 .author .left-section ul li a img{
+width: 25px;
+
+}
+
+.product-gellary .product .product-4 .author .left-section ul li a span{
+font-family: "Hass Rg";
+font-size: 14px;
+font-weight: 600;
+color: #0d0c22;
+display: inline-block;
+transform: translate(-6px,-7px);
+}
+
+.product-gellary .product .product-4 .author .left-section ul li a button{
+border: none;
+padding:2px 3px;
+background-color: #9e9ea7;
+border-radius: 3px;
+font-family: "Hass Rg";
+font-size: 14px;
+font-weight: 500;
+color: #fff;
+cursor: pointer;
+display: inline-block;
+transform: translate(-7px,-6px);
+}
+
+.product-gellary .product .product-4 .author .left-section ul li a button:hover{
+background-color: #ea4c89;
+}
+
+
+.product-gellary .product .product-4 .author .right-section{
+width: 50%;
+float: left;
+text-align: right;
+}
+
+
+.product-gellary .product .product-4 .author .right-section ul li{
+display: inline-block;
+padding:6px 3px;
+}
+
+.product-gellary .product .product-4 .author .right-section ul li:last-child{
+padding-right: 7px;
+}
+
+.product-gellary .product .product-4 .author .right-section ul li a{
+font-family: "Hass Rg";
+font-size: 12px;
+font-weight: 600;
+color: #0d0c22;
+cursor: text;
+}
+
+.product-gellary .product .product-4 .author .right-section ul li a i{
+color: #9e9ea7;
+}
+
+.product-gellary .product .product-4 .author .right-section ul li a i:hover{
+color: #ea4c89;
+cursor: pointer;
+}
+
+
+ /* Start Product Gellary-2  */
+
+ 
+/* Product-5  */
+
+.product-gellary .product .product-5{
+    width: 276px;
+    height: 240px;
+    float: left;
+    margin-bottom: 25px;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.product-gellary .product .product-5 .product-img .product-item{
+    width: 100%;
+    height: 206px;
+    background-image: url('../media/img/part-5.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+   
+}
+
+.product-gellary .product .product-5 .product-img .product-item i{
+    display: inline-block;
+    transform: translate(240px,15px);
+    color: #6e6d7a;
+    font-size: 20px;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.product-gellary .product .product-5 .product-img .product-item:hover i{
+    opacity: 0;
+}
+
+
+.product-gellary .product .product-5 .product-img .product-content{
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.2));
+  position: absolute;
+  top: 147px;
+  left: 0px;
+  box-shadow: -5px -2px 15px rgba(14, 12, 12, 0.1);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.product-gellary .product .product-5 .product-img:hover  .product-content{
+  opacity: 1;
+}
+
+.product-gellary .product .product-5 .product-img .product-content:after{
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.product-gellary .product .product-5 .product-img .product-content .text{
+  width: 70%;
+  float: left;
+}
+
+.product-gellary .product .product-5 .product-img .product-content .text p{
+  display: inline-block;
+  font-family: "Hass Md";
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  padding: 10px 10px 30px 20px;
+}
+
+.product-gellary .product .product-5 .product-img .product-content .file{
+  width: 30%;
+  float: left;
+}
+
+.product-gellary .product .product-5 .product-img .product-content .file i{
+  padding: 8px;
+  background-color: #fff;
+  color: #6e6d7a;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.product-gellary .product .product-5 .product-img .product-content .file i:nth-child(1){
+  margin-right: 5px;
+}
+
+.product-gellary .product .product-5 .author{
+  width: 100%;
+ 
+}
+
+.product-gellary .product .product-5 .author:after{
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.product-gellary .product .product-5 .author .left-section{
+  width: 60%;
+  float: left;
+}
+
+.product-gellary .product .product-5 .author .left-section ul li{
+  display: inline-block;
+  padding: 3px;
+}
+
+.product-gellary .product .product-5 .author .left-section ul li a img{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.product-gellary .product .product-5 .author .left-section ul li a span{
+  font-family: "Hass Rg";
+  font-size: 14px;
+  font-weight: 600;
+  color: #0d0c22;
+  display: inline-block;
+  transform: translate(-6px,-7px);
+}
+
+.product-gellary .product .product-5 .author .left-section ul li a button{
+  border: none;
+  padding:2px 3px;
+  background-color: #9e9ea7;
+  border-radius: 3px;
+  font-family: "Hass Rg";
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  transform: translate(-7px,-6px);
+}
+
+.product-gellary .product .product-5 .author .left-section ul li a button:hover{
+  background-color: #ea4c89;
+}
+
+
+.product-gellary .product .product-5 .author .right-section{
+  width: 40%;
+  float: left;
+  text-align: right;
+}
+
+
+.product-gellary .product .product-5 .author .right-section ul li{
+  display: inline-block;
+  padding:6px 3px;
+}
+
+.product-gellary .product .product-5 .author .right-section ul li:last-child{
+  padding-right: 7px;
+}
+
+.product-gellary .product .product-5 .author .right-section ul li a{
+  font-family: "Hass Rg";
+  font-size: 12px;
+  font-weight: 600;
+  color: #0d0c22;
+  cursor: text;
+}
+
+.product-gellary .product .product-5 .author .right-section ul li a i{
+  color: #9e9ea7;
+}
+
+.product-gellary .product .product-5 .author .right-section ul li a i:hover{
+  color: #ea4c89;
+  cursor: pointer;
+}
+
+/* Product-6  */
+
+.product-gellary .product .product-6{
+  width: 276px;
+  height: 240px;
+  float: left;
+  margin-left: 32px;
+  margin-bottom: 25px;
+  position: relative;
+  cursor: pointer;
+}
+
+
+.product-gellary .product .product-6 .product-img .product-item{
+  width: 100%;
+  height: 206px;
+  background-image: url('../media/img/post-10.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+ 
+}
+
+.product-gellary .product .product-6 .product-img .product-item i{
+  display: inline-block;
+  transform: translate(240px,15px);
+  color: #6e6d7a;
+  font-size: 20px;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.product-gellary .product .product-6 .product-img .product-item:hover i{
+  opacity: 0;
+}
+
+
+.product-gellary .product .product-6 .product-img .product-content{
+width: 100%;
+background: linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.2));
+position: absolute;
+top: 147px;
+left: 0px;
+box-shadow: -5px -2px 15px rgba(14, 12, 12, 0.1);
+opacity: 0;
+transition: 0.5s;
+}
+
+.product-gellary .product .product-6 .product-img:hover  .product-content{
+opacity: 1;
+}
+
+.product-gellary .product .product-6 .product-img .product-content:after{
+content: " ";
+display: block;
+clear: both;
+}
+
+.product-gellary .product .product-6 .product-img .product-content .text{
+width: 70%;
+float: left;
+}
+
+.product-gellary .product .product-6 .product-img .product-content .text p{
+display: inline-block;
+font-family: "Hass Md";
+font-size: 16px;
+font-weight: 500;
+color: #fff;
+padding: 10px 10px 30px 20px;
+}
+
+.product-gellary .product .product-6 .product-img .product-content .file{
+width: 30%;
+float: left;
+}
+
+.product-gellary .product .product-6 .product-img .product-content .file i{
+padding: 8px;
+background-color: #fff;
+color: #6e6d7a;
+border-radius: 8px;
+margin-top: 10px;
+}
+
+.product-gellary .product .product-6 .product-img .product-content .file i:nth-child(1){
+margin-right: 5px;
+}
+
+.product-gellary .product .product-6 .author{
+width: 100%;
+
+}
+
+.product-gellary .product .product-6 .author:after{
+content: " ";
+display: block;
+clear: both;
+}
+
+.product-gellary .product .product-6 .author .left-section{
+width: 65%;
+float: left;
+}
+
+.product-gellary .product .product-6 .author .left-section ul li{
+display: inline-block;
+padding: 3px;
+}
+
+.product-gellary .product .product-6 .author .left-section ul li a img{
+width: 25px;
+height: 25PX;
+border-radius: 50%;
+}
+
+.product-gellary .product .product-6 .author .left-section ul li a span{
+font-family: "Hass Rg";
+font-size: 14px;
+font-weight: 600;
+color: #0d0c22;
+display: inline-block;
+transform: translate(-6px,-7px);
+}
+
+.product-gellary .product .product-6 .author .left-section ul li a button{
+border: none;
+padding:2px 3px;
+background-color: #9e9ea7;
+border-radius: 3px;
+font-family: "Hass Rg";
+font-size: 14px;
+font-weight: 500;
+color: #fff;
+cursor: pointer;
+display: inline-block;
+transform: translate(-7px,-6px);
+}
+
+.product-gellary .product .product-6 .author .left-section ul li a button:hover{
+background-color: #ea4c89;
+}
+
+
+.product-gellary .product .product-6 .author .right-section{
+width: 35%;
+float: left;
+text-align: right;
+}
+
+
+.product-gellary .product .product-6 .author .right-section ul li{
+display: inline-block;
+padding:6px 3px;
+}
+
+.product-gellary .product .product-6 .author .right-section ul li:last-child{
+padding-right: 7px;
+}
+
+.product-gellary .product .product-6 .author .right-section ul li a{
+font-family: "Hass Rg";
+font-size: 12px;
+font-weight: 600;
+color: #0d0c22;
+cursor: text;
+}
+
+.product-gellary .product .product-6 .author .right-section ul li a i{
+color: #9e9ea7;
+}
+
+.product-gellary .product .product-6 .author .right-section ul li a i:hover{
+color: #ea4c89;
+cursor: pointer;
+}
+
+/* Product-7  */
+
+.product-gellary .product .product-7{
+  width: 276px;
+  height: 240px;
+  float: left;
+  margin-left: 32px;
+  margin-bottom: 25px;
+  position: relative;
+  cursor: pointer;
+}
+
+
+.product-gellary .product .product-7 .product-img .product-item{
+  width: 100%;
+  height: 206px;
+  background-image: url('../media/img/part-7.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+ 
+}
+
+.product-gellary .product .product-7 .product-img .product-item i{
+  display: inline-block;
+  transform: translate(240px,15px);
+  color: #fff;
+  font-size: 20px;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.product-gellary .product .product-7 .product-img .product-item:hover i{
+  opacity: 0;
+}
+
+
+.product-gellary .product .product-7 .product-img .product-content{
+width: 100%;
+background: linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.2));
+position: absolute;
+top: 147px;
+left: 0px;
+box-shadow: -5px -2px 15px rgba(14, 12, 12, 0.1);
+opacity: 0;
+transition: 0.5s;
+}
+
+.product-gellary .product .product-7 .product-img:hover  .product-content{
+opacity: 1;
+}
+
+.product-gellary .product .product-7 .product-img .product-content:after{
+content: " ";
+display: block;
+clear: both;
+}
+
+.product-gellary .product .product-7 .product-img .product-content .text{
+width: 70%;
+float: left;
+}
+
+.product-gellary .product .product-7 .product-img .product-content .text p{
+display: inline-block;
+font-family: "Hass Md";
+font-size: 16px;
+font-weight: 500;
+color: #fff;
+padding: 10px 10px 30px 20px;
+}
+
+.product-gellary .product .product-7 .product-img .product-content .file{
+width: 30%;
+float: left;
+}
+
+.product-gellary .product .product-7 .product-img .product-content .file i{
+padding: 8px;
+background-color: #fff;
+color: #6e6d7a;
+border-radius: 8px;
+margin-top: 10px;
+}
+
+.product-gellary .product .product-7 .product-img .product-content .file i:nth-child(1){
+margin-right: 5px;
+}
+
+.product-gellary .product .product-7 .author{
+width: 100%;
+
+}
+
+.product-gellary .product .product-7 .author:after{
+content: " ";
+display: block;
+clear: both;
+}
+
+.product-gellary .product .product-7 .author .left-section{
+width: 65%;
+float: left;
+}
+
+.product-gellary .product .product-7 .author .left-section ul li{
+display: inline-block;
+padding: 3px;
+}
+
+.product-gellary .product .product-7 .author .left-section ul li a img{
+width: 25px;
+height: 25px;
+border-radius: 50%;
+}
+
+.product-gellary .product .product-7 .author .left-section ul li a span{
+font-family: "Hass Rg";
+font-size: 14px;
+font-weight: 600;
+color: #0d0c22;
+display: inline-block;
+transform: translate(-6px,-7px);
+}
+
+.product-gellary .product .product-7 .author .left-section ul li a button{
+border: none;
+padding:2px 3px;
+background-color: #9e9ea7;
+border-radius: 3px;
+font-family: "Hass Rg";
+font-size: 14px;
+font-weight: 500;
+color: #fff;
+cursor: pointer;
+display: inline-block;
+transform: translate(-7px,-6px);
+}
+
+.product-gellary .product .product-7 .author .left-section ul li a button:hover{
+background-color: #ea4c89;
+}
+
+
+.product-gellary .product .product-7 .author .right-section{
+width: 35%;
+float: left;
+text-align: right;
+}
+
+
+.product-gellary .product .product-7 .author .right-section ul li{
+display: inline-block;
+padding:6px 3px;
+}
+
+.product-gellary .product .product-7 .author .right-section ul li:last-child{
+padding-right: 7px;
+}
+
+.product-gellary .product .product-7 .author .right-section ul li a{
+font-family: "Hass Rg";
+font-size: 12px;
+font-weight: 600;
+color: #0d0c22;
+cursor: text;
+}
+
+.product-gellary .product .product-7 .author .right-section ul li a i{
+color: #9e9ea7;
+}
+
+.product-gellary .product .product-7 .author .right-section ul li a i:hover{
+color: #ea4c89;
+cursor: pointer;
+}
+
+
+/* Product-8  */
+
+.product-gellary .product .product-8{
+  width: 276px;
+  height: 240px;
+  float: left;
+  margin-left: 32px;
+  margin-bottom: 25px;
+  position: relative;
+  cursor: pointer;
+}
+
+
+.product-gellary .product .product-8 .product-img .product-item{
+  width: 100%;
+  height: 206px;
+  background-image: url('../media/img/part-8.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+ 
+}
+
+.product-gellary .product .product-8 .product-img .product-item i{
+  display: inline-block;
+  transform: translate(240px,15px);
+  color: #fff;
+  font-size: 20px;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.product-gellary .product .product-8 .product-img .product-item:hover i{
+  opacity: 0;
+}
+
+
+.product-gellary .product .product-8 .product-img .product-content{
+width: 100%;
+background: linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.2));
+position: absolute;
+top: 147px;
+left: 0px;
+box-shadow: -5px -2px 15px rgba(14, 12, 12, 0.1);
+opacity: 0;
+transition: 0.5s;
+}
+
+.product-gellary .product .product-8 .product-img:hover  .product-content{
+opacity: 1;
+}
+
+.product-gellary .product .product-8 .product-img .product-content:after{
+content: " ";
+display: block;
+clear: both;
+}
+
+.product-gellary .product .product-8 .product-img .product-content .text{
+width: 70%;
+float: left;
+}
+
+.product-gellary .product .product-8 .product-img .product-content .text p{
+display: inline-block;
+font-family: "Hass Md";
+font-size: 16px;
+font-weight: 500;
+color: #fff;
+padding: 10px 10px 30px 20px;
+}
+
+.product-gellary .product .product-8 .product-img .product-content .file{
+width: 30%;
+float: left;
+}
+
+.product-gellary .product .product-8 .product-img .product-content .file i{
+padding: 8px;
+background-color: #fff;
+color: #6e6d7a;
+border-radius: 8px;
+margin-top: 10px;
+}
+
+.product-gellary .product .product-8 .product-img .product-content .file i:nth-child(1){
+margin-right: 5px;
+}
+
+.product-gellary .product .product-8 .author{
+width: 100%;
+
+}
+
+.product-gellary .product .product-8 .author:after{
+content: " ";
+display: block;
+clear: both;
+}
+
+.product-gellary .product .product-8 .author .left-section{
+width: 60%;
+float: left;
+}
+
+.product-gellary .product .product-8 .author .left-section ul li{
+display: inline-block;
+padding: 3px;
+}
+
+.product-gellary .product .product-8 .author .left-section ul li a img{
+width: 25px;
+height: 25px;
+border-radius: 50%;
+}
+
+.product-gellary .product .product-8 .author .left-section ul li a span{
+font-family: "Hass Rg";
+font-size: 14px;
+font-weight: 600;
+color: #0d0c22;
+display: inline-block;
+transform: translate(-6px,-7px);
+}
+
+.product-gellary .product .product-8 .author .left-section ul li a button{
+border: none;
+padding:2px 3px;
+background-color: #9e9ea7;
+border-radius: 3px;
+font-family: "Hass Rg";
+font-size: 14px;
+font-weight: 500;
+color: #fff;
+cursor: pointer;
+display: inline-block;
+transform: translate(-7px,-6px);
+}
+
+.product-gellary .product .product-8 .author .left-section ul li a button:hover{
+background-color: #ea4c89;
+}
+
+
+.product-gellary .product .product-8 .author .right-section{
+width: 40%;
+float: left;
+text-align: right;
+}
+
+
+.product-gellary .product .product-8 .author .right-section ul li{
+display: inline-block;
+padding:6px 3px;
+}
+
+.product-gellary .product .product-8 .author .right-section ul li:last-child{
+padding-right: 7px;
+}
+
+.product-gellary .product .product-8 .author .right-section ul li a{
+font-family: "Hass Rg";
+font-size: 12px;
+font-weight: 600;
+color: #0d0c22;
+cursor: text;
+}
+
+.product-gellary .product .product-8 .author .right-section ul li a i{
+color: #9e9ea7;
+}
+
+.product-gellary .product .product-8 .author .right-section ul li a i:hover{
+color: #ea4c89;
+cursor: pointer;
+}
+
+
+/* Start Product Gellary-3  */
+
+/* Product-9  */
+
+.product-gellary .product .product-9{
+    width: 276px;
+    height: 240px;
+    float: left;
+    margin-bottom: 25px;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.product-gellary .product .product-9 .product-img .product-item{
+    width: 100%;
+    height: 206px;
+    background-image: url('../media/img/post-11.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+   
+}
+
+.product-gellary .product .product-9 .product-img .product-item i{
+    display: inline-block;
+    transform: translate(240px,15px);
+    color: #fff;
+    font-size: 20px;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.product-gellary .product .product-9 .product-img .product-item:hover i{
+    opacity: 0;
+}
+
+
+.product-gellary .product .product-9 .product-img .product-content{
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.2));
+  position: absolute;
+  top: 147px;
+  left: 0px;
+  box-shadow: -5px -2px 15px rgba(14, 12, 12, 0.1);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.product-gellary .product .product-9 .product-img:hover  .product-content{
+  opacity: 1;
+}
+
+.product-gellary .product .product-9 .product-img .product-content:after{
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.product-gellary .product .product-9 .product-img .product-content .text{
+  width: 70%;
+  float: left;
+}
+
+.product-gellary .product .product-9 .product-img .product-content .text p{
+  display: inline-block;
+  font-family: "Hass Md";
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  padding: 10px 10px 30px 20px;
+}
+
+.product-gellary .product .product-9 .product-img .product-content .file{
+  width: 30%;
+  float: left;
+}
+
+.product-gellary .product .product-9 .product-img .product-content .file i{
+  padding: 8px;
+  background-color: #fff;
+  color: #6e6d7a;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.product-gellary .product .product-9 .product-img .product-content .file i:nth-child(1){
+  margin-right: 5px;
+}
+
+.product-gellary .product .product-9 .author{
+  width: 100%;
+ 
+}
+
+.product-gellary .product .product-9 .author:after{
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.product-gellary .product .product-9 .author .left-section{
+  width: 50%;
+  float: left;
+}
+
+.product-gellary .product .product-9 .author .left-section ul li{
+  display: inline-block;
+  padding: 3px;
+}
+
+.product-gellary .product .product-9 .author .left-section ul li a img{
+  width: 25px;
+  
+}
+
+.product-gellary .product .product-9 .author .left-section ul li a span{
+  font-family: "Hass Rg";
+  font-size: 14px;
+  font-weight: 600;
+  color: #0d0c22;
+  display: inline-block;
+  transform: translate(-6px,-7px);
+}
+
+.product-gellary .product .product-9 .author .left-section ul li a button{
+  border: none;
+  padding:2px 3px;
+  background-color: #9e9ea7;
+  border-radius: 3px;
+  font-family: "Hass Rg";
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  transform: translate(-7px,-6px);
+}
+
+.product-gellary .product .product-9 .author .left-section ul li a button:hover{
+  background-color: #ea4c89;
+}
+
+
+.product-gellary .product .product-9 .author .right-section{
+  width: 50%;
+  float: left;
+  text-align: right;
+}
+
+
+.product-gellary .product .product-9 .author .right-section ul li{
+  display: inline-block;
+  padding:6px 3px;
+}
+
+.product-gellary .product .product-9 .author .right-section ul li:last-child{
+  padding-right: 7px;
+}
+
+.product-gellary .product .product-9 .author .right-section ul li a{
+  font-family: "Hass Rg";
+  font-size: 12px;
+  font-weight: 600;
+  color: #0d0c22;
+  cursor: text;
+}
+
+.product-gellary .product .product-9 .author .right-section ul li a i{
+  color: #9e9ea7;
+}
+
+.product-gellary .product .product-9 .author .right-section ul li a i:hover{
+  color: #ea4c89;
+  cursor: pointer;
+}
+
+/* Product-10  */
+
+.product-gellary .product .product-10{
+  width: 276px;
+  height: 240px;
+  float: left;
+  margin-left: 32px;
+  margin-bottom: 25px;
+  position: relative;
+  cursor: pointer;
+}
+
+
+.product-gellary .product .product-10 .product-img .product-item{
+  width: 100%;
+  height: 206px;
+  background-image: url('../media/img/post-12.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+ 
+}
+
+.product-gellary .product .product-10 .product-img .product-item i{
+  display: inline-block;
+  transform: translate(240px,15px);
+  color: #fff;
+  font-size: 20px;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.product-gellary .product .product-10 .product-img .product-item:hover i{
+  opacity: 0;
+}
+
+
+.product-gellary .product .product-10 .product-img .product-content{
+width: 100%;
+background: linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.2));
+position: absolute;
+top: 147px;
+left: 0px;
+box-shadow: -5px -2px 15px rgba(14, 12, 12, 0.1);
+opacity: 0;
+transition: 0.5s;
+}
+
+.product-gellary .product .product-10 .product-img:hover  .product-content{
+opacity: 1;
+}
+
+.product-gellary .product .product-10 .product-img .product-content:after{
+content: " ";
+display: block;
+clear: both;
+}
+
+.product-gellary .product .product-10 .product-img .product-content .text{
+width: 70%;
+float: left;
+}
+
+.product-gellary .product .product-10 .product-img .product-content .text p{
+display: inline-block;
+font-family: "Hass Md";
+font-size: 16px;
+font-weight: 500;
+color: #fff;
+padding: 10px 10px 30px 20px;
+}
+
+.product-gellary .product .product-10 .product-img .product-content .file{
+width: 30%;
+float: left;
+}
+
+.product-gellary .product .product-10 .product-img .product-content .file i{
+padding: 8px;
+background-color: #fff;
+color: #6e6d7a;
+border-radius: 8px;
+margin-top: 10px;
+}
+
+.product-gellary .product .product-10 .product-img .product-content .file i:nth-child(1){
+margin-right: 5px;
+}
+
+.product-gellary .product .product-10 .author{
+width: 100%;
+
+}
+
+.product-gellary .product .product-10 .author:after{
+content: " ";
+display: block;
+clear: both;
+}
+
+.product-gellary .product .product-10 .author .left-section{
+width: 55%;
+float: left;
+}
+
+.product-gellary .product .product-10 .author .left-section ul li{
+display: inline-block;
+padding: 3px;
+}
+
+.product-gellary .product .product-10 .author .left-section ul li a img{
+width: 25px;
+height: 25PX;
+border-radius: 50%;
+}
+
+.product-gellary .product .product-10 .author .left-section ul li a span{
+font-family: "Hass Rg";
+font-size: 14px;
+font-weight: 600;
+color: #0d0c22;
+display: inline-block;
+transform: translate(-6px,-7px);
+}
+
+.product-gellary .product .product-10 .author .left-section ul li a button{
+border: none;
+padding:2px 3px;
+background-color: #9e9ea7;
+border-radius: 3px;
+font-family: "Hass Rg";
+font-size: 14px;
+font-weight: 500;
+color: #fff;
+cursor: pointer;
+display: inline-block;
+transform: translate(-7px,-6px);
+}
+
+.product-gellary .product .product-10 .author .left-section ul li a button:hover{
+background-color: #ea4c89;
+}
+
+
+.product-gellary .product .product-10 .author .right-section{
+width: 45%;
+float: left;
+text-align: right;
+}
+
+
+.product-gellary .product .product-10 .author .right-section ul li{
+display: inline-block;
+padding:6px 3px;
+}
+
+.product-gellary .product .product-10 .author .right-section ul li:last-child{
+padding-right: 7px;
+}
+
+.product-gellary .product .product-10 .author .right-section ul li a{
+font-family: "Hass Rg";
+font-size: 12px;
+font-weight: 600;
+color: #0d0c22;
+cursor: text;
+}
+
+.product-gellary .product .product-10 .author .right-section ul li a i{
+color: #9e9ea7;
+}
+
+.product-gellary .product .product-10 .author .right-section ul li a i:hover{
+color: #ea4c89;
+cursor: pointer;
+}
+
+/* Product-11  */
+
+.product-gellary .product .product-11{
+  width: 276px;
+  height: 240px;
+  float: left;
+  margin-left: 32px;
+  margin-bottom: 25px;
+  position: relative;
+  cursor: pointer;
+}
+
+
+.product-gellary .product .product-11 .product-img .product-item{
+  width: 100%;
+  height: 206px;
+  background-image: url('../media/img/post-9.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+ 
+}
+
+.product-gellary .product .product-11 .product-img .product-item i{
+  display: inline-block;
+  transform: translate(240px,15px);
+  color: #fff;
+  font-size: 20px;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.product-gellary .product .product-11 .product-img .product-item:hover i{
+  opacity: 0;
+}
+
+
+.product-gellary .product .product-11 .product-img .product-content{
+width: 100%;
+background: linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.2));
+position: absolute;
+top: 147px;
+left: 0px;
+box-shadow: -5px -2px 15px rgba(14, 12, 12, 0.1);
+opacity: 0;
+transition: 0.5s;
+}
+
+.product-gellary .product .product-11 .product-img:hover  .product-content{
+opacity: 1;
+}
+
+.product-gellary .product .product-11 .product-img .product-content:after{
+content: " ";
+display: block;
+clear: both;
+}
+
+.product-gellary .product .product-11 .product-img .product-content .text{
+width: 70%;
+float: left;
+}
+
+.product-gellary .product .product-11 .product-img .product-content .text p{
+display: inline-block;
+font-family: "Hass Md";
+font-size: 16px;
+font-weight: 500;
+color: #fff;
+padding: 10px 10px 30px 20px;
+}
+
+.product-gellary .product .product-11 .product-img .product-content .file{
+width: 30%;
+float: left;
+}
+
+.product-gellary .product .product-11 .product-img .product-content .file i{
+padding: 8px;
+background-color: #fff;
+color: #6e6d7a;
+border-radius: 8px;
+margin-top: 10px;
+}
+
+.product-gellary .product .product-11 .product-img .product-content .file i:nth-child(1){
+margin-right: 5px;
+}
+
+.product-gellary .product .product-11 .author{
+width: 100%;
+
+}
+
+.product-gellary .product .product-11 .author:after{
+content: " ";
+display: block;
+clear: both;
+}
+
+.product-gellary .product .product-11 .author .left-section{
+width: 50%;
+float: left;
+}
+
+.product-gellary .product .product-11 .author .left-section ul li{
+display: inline-block;
+padding: 3px;
+}
+
+.product-gellary .product .product-11 .author .left-section ul li a img{
+width: 25px;
+height: 25px;
+border-radius: 50%;
+}
+
+.product-gellary .product .product-11 .author .left-section ul li a span{
+font-family: "Hass Rg";
+font-size: 14px;
+font-weight: 600;
+color: #0d0c22;
+display: inline-block;
+transform: translate(-6px,-7px);
+}
+
+.product-gellary .product .product-11 .author .left-section ul li a button{
+border: none;
+padding:2px 3px;
+background-color: #9e9ea7;
+border-radius: 3px;
+font-family: "Hass Rg";
+font-size: 14px;
+font-weight: 500;
+color: #fff;
+cursor: pointer;
+display: inline-block;
+transform: translate(-7px,-6px);
+}
+
+.product-gellary .product .product-11 .author .left-section ul li a button:hover{
+background-color: #ea4c89;
+}
+
+
+.product-gellary .product .product-11 .author .right-section{
+width: 50%;
+float: left;
+text-align: right;
+}
+
+
+.product-gellary .product .product-11 .author .right-section ul li{
+display: inline-block;
+padding:6px 3px;
+}
+
+.product-gellary .product .product-11 .author .right-section ul li:last-child{
+padding-right: 7px;
+}
+
+.product-gellary .product .product-11 .author .right-section ul li a{
+font-family: "Hass Rg";
+font-size: 12px;
+font-weight: 600;
+color: #0d0c22;
+cursor: text;
+}
+
+.product-gellary .product .product-11 .author .right-section ul li a i{
+color: #9e9ea7;
+}
+
+.product-gellary .product .product-11 .author .right-section ul li a i:hover{
+color: #ea4c89;
+cursor: pointer;
+}
+
+
+/* Product-12  */
+
+.product-gellary .product .product-12{
+  width: 276px;
+  height: 240px;
+  float: left;
+  margin-left: 32px;
+  margin-bottom: 25px;
+  position: relative;
+  cursor: pointer;
+}
+
+
+.product-gellary .product .product-12 .product-img .product-item{
+  width: 100%;
+  height: 206px;
+  background-image: url('../media/img/post-13.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+ 
+}
+
+.product-gellary .product .product-12 .product-img .product-item i{
+  display: inline-block;
+  transform: translate(240px,15px);
+  color: #fff;
+  font-size: 20px;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.product-gellary .product .product-12 .product-img .product-item:hover i{
+  opacity: 0;
+}
+
+
+.product-gellary .product .product-12 .product-img .product-content{
+width: 100%;
+background: linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.2));
+position: absolute;
+top: 147px;
+left: 0px;
+box-shadow: -5px -2px 15px rgba(14, 12, 12, 0.1);
+opacity: 0;
+transition: 0.5s;
+}
+
+.product-gellary .product .product-12 .product-img:hover  .product-content{
+opacity: 1;
+}
+
+.product-gellary .product .product-12 .product-img .product-content:after{
+content: " ";
+display: block;
+clear: both;
+}
+
+.product-gellary .product .product-12 .product-img .product-content .text{
+width: 70%;
+float: left;
+}
+
+.product-gellary .product .product-12 .product-img .product-content .text p{
+display: inline-block;
+font-family: "Hass Md";
+font-size: 16px;
+font-weight: 500;
+color: #fff;
+padding: 10px 10px 30px 20px;
+}
+
+.product-gellary .product .product-12 .product-img .product-content .file{
+width: 30%;
+float: left;
+}
+
+.product-gellary .product .product-12 .product-img .product-content .file i{
+padding: 8px;
+background-color: #fff;
+color: #6e6d7a;
+border-radius: 8px;
+margin-top: 10px;
+}
+
+.product-gellary .product .product-12 .product-img .product-content .file i:nth-child(1){
+margin-right: 5px;
+}
+
+.product-gellary .product .product-12 .author{
+width: 100%;
+
+}
+
+.product-gellary .product .product-12 .author:after{
+content: " ";
+display: block;
+clear: both;
+}
+
+.product-gellary .product .product-12 .author .left-section{
+width: 50%;
+float: left;
+}
+
+.product-gellary .product .product-12 .author .left-section ul li{
+display: inline-block;
+padding: 3px;
+}
+
+.product-gellary .product .product-12 .author .left-section ul li a img{
+width: 25px;
+
+}
+
+.product-gellary .product .product-12 .author .left-section ul li a span{
+font-family: "Hass Rg";
+font-size: 14px;
+font-weight: 600;
+color: #0d0c22;
+display: inline-block;
+transform: translate(-6px,-7px);
+}
+
+.product-gellary .product .product-12 .author .left-section ul li a button{
+border: none;
+padding:2px 3px;
+background-color: #9e9ea7;
+border-radius: 3px;
+font-family: "Hass Rg";
+font-size: 14px;
+font-weight: 500;
+color: #fff;
+cursor: pointer;
+display: inline-block;
+transform: translate(-7px,-6px);
+}
+
+.product-gellary .product .product-12 .author .left-section ul li a button:hover{
+background-color: #ea4c89;
+}
+
+
+.product-gellary .product .product-12 .author .right-section{
+width: 50%;
+float: left;
+text-align: right;
+}
+
+
+.product-gellary .product .product-12 .author .right-section ul li{
+display: inline-block;
+padding:6px 3px;
+}
+
+.product-gellary .product .product-12 .author .right-section ul li:last-child{
+padding-right: 7px;
+}
+
+.product-gellary .product .product-12 .author .right-section ul li a{
+font-family: "Hass Rg";
+font-size: 12px;
+font-weight: 600;
+color: #0d0c22;
+cursor: text;
+}
+
+.product-gellary .product .product-12 .author .right-section ul li a i{
+color: #9e9ea7;
+}
+
+.product-gellary .product .product-12 .author .right-section ul li a i:hover{
+color: #ea4c89;
+cursor: pointer;
+}
+
+
+ /* Start Product Gellary-4  */
+
+ 
+/* Product-13  */
+
+.product-gellary .product .product-13{
+    width: 276px;
+    height: 240px;
+    float: left;
+    margin-bottom: 25px;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.product-gellary .product .product-13 .product-img .product-item{
+    width: 100%;
+    height: 206px;
+    background-image: url('../media/img/post-14.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+   
+}
+
+.product-gellary .product .product-13 .product-img .product-item i{
+    display: inline-block;
+    transform: translate(240px,15px);
+    color: #6e6d7a;
+    font-size: 20px;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.product-gellary .product .product-13 .product-img .product-item:hover i{
+    opacity: 0;
+}
+
+
+.product-gellary .product .product-13 .product-img .product-content{
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.2));
+  position: absolute;
+  top: 147px;
+  left: 0px;
+  box-shadow: -5px -2px 15px rgba(14, 12, 12, 0.1);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.product-gellary .product .product-13 .product-img:hover  .product-content{
+  opacity: 1;
+}
+
+.product-gellary .product .product-13 .product-img .product-content:after{
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.product-gellary .product .product-13 .product-img .product-content .text{
+  width: 70%;
+  float: left;
+}
+
+.product-gellary .product .product-13 .product-img .product-content .text p{
+  display: inline-block;
+  font-family: "Hass Md";
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  padding: 10px 10px 30px 20px;
+}
+
+.product-gellary .product .product-13 .product-img .product-content .file{
+  width: 30%;
+  float: left;
+}
+
+.product-gellary .product .product-13 .product-img .product-content .file i{
+  padding: 8px;
+  background-color: #fff;
+  color: #6e6d7a;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.product-gellary .product .product-13 .product-img .product-content .file i:nth-child(1){
+  margin-right: 5px;
+}
+
+.product-gellary .product .product-13 .author{
+  width: 100%;
+ 
+}
+
+.product-gellary .product .product-13 .author:after{
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.product-gellary .product .product-13 .author .left-section{
+  width: 60%;
+  float: left;
+}
+
+.product-gellary .product .product-13 .author .left-section ul li{
+  display: inline-block;
+  padding: 3px;
+}
+
+.product-gellary .product .product-13 .author .left-section ul li a img{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.product-gellary .product .product-13 .author .left-section ul li a span{
+  font-family: "Hass Rg";
+  font-size: 14px;
+  font-weight: 600;
+  color: #0d0c22;
+  display: inline-block;
+  transform: translate(-6px,-7px);
+}
+
+.product-gellary .product .product-13 .author .left-section ul li a button{
+  border: none;
+  padding:2px 3px;
+  background-color: #9e9ea7;
+  border-radius: 3px;
+  font-family: "Hass Rg";
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  transform: translate(-7px,-6px);
+}
+
+.product-gellary .product .product-13 .author .left-section ul li a button:hover{
+  background-color: #ea4c89;
+}
+
+
+.product-gellary .product .product-13 .author .right-section{
+  width: 40%;
+  float: left;
+  text-align: right;
+}
+
+
+.product-gellary .product .product-13 .author .right-section ul li{
+  display: inline-block;
+  padding:6px 3px;
+}
+
+.product-gellary .product .product-13 .author .right-section ul li:last-child{
+  padding-right: 7px;
+}
+
+.product-gellary .product .product-13 .author .right-section ul li a{
+  font-family: "Hass Rg";
+  font-size: 12px;
+  font-weight: 600;
+  color: #0d0c22;
+  cursor: text;
+}
+
+.product-gellary .product .product-13 .author .right-section ul li a i{
+  color: #9e9ea7;
+}
+
+.product-gellary .product .product-13 .author .right-section ul li a i:hover{
+  color: #ea4c89;
+  cursor: pointer;
+}
+
+/* Product-14  */
+
+.product-gellary .product .product-14{
+  width: 276px;
+  height: 240px;
+  float: left;
+  margin-left: 32px;
+  margin-bottom: 25px;
+  position: relative;
+  cursor: pointer;
+}
+
+
+.product-gellary .product .product-14 .product-img .product-item{
+  width: 100%;
+  height: 206px;
+  background-image: url('../media/img/post-15.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+ 
+}
+
+.product-gellary .product .product-14 .product-img .product-item i{
+  display: inline-block;
+  transform: translate(240px,15px);
+  color: #fff;
+  font-size: 20px;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.product-gellary .product .product-14 .product-img .product-item:hover i{
+  opacity: 0;
+}
+
+
+.product-gellary .product .product-14 .product-img .product-content{
+width: 100%;
+background: linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.2));
+position: absolute;
+top: 147px;
+left: 0px;
+box-shadow: -5px -2px 15px rgba(14, 12, 12, 0.1);
+opacity: 0;
+transition: 0.5s;
+}
+
+.product-gellary .product .product-14 .product-img:hover  .product-content{
+opacity: 1;
+}
+
+.product-gellary .product .product-14 .product-img .product-content:after{
+content: " ";
+display: block;
+clear: both;
+}
+
+.product-gellary .product .product-14 .product-img .product-content .text{
+width: 70%;
+float: left;
+}
+
+.product-gellary .product .product-14 .product-img .product-content .text p{
+display: inline-block;
+font-family: "Hass Md";
+font-size: 16px;
+font-weight: 500;
+color: #fff;
+padding: 10px 10px 30px 20px;
+}
+
+.product-gellary .product .product-14 .product-img .product-content .file{
+width: 30%;
+float: left;
+}
+
+.product-gellary .product .product-14 .product-img .product-content .file i{
+padding: 8px;
+background-color: #fff;
+color: #6e6d7a;
+border-radius: 8px;
+margin-top: 10px;
+}
+
+.product-gellary .product .product-14 .product-img .product-content .file i:nth-child(1){
+margin-right: 5px;
+}
+
+.product-gellary .product .product-14 .author{
+width: 100%;
+
+}
+
+.product-gellary .product .product-14 .author:after{
+content: " ";
+display: block;
+clear: both;
+}
+
+.product-gellary .product .product-14 .author .left-section{
+width: 65%;
+float: left;
+}
+
+.product-gellary .product .product-14 .author .left-section ul li{
+display: inline-block;
+padding: 3px;
+}
+
+.product-gellary .product .product-14 .author .left-section ul li a img{
+width: 25px;
+height: 25PX;
+border-radius: 50%;
+}
+
+.product-gellary .product .product-14 .author .left-section ul li a span{
+font-family: "Hass Rg";
+font-size: 14px;
+font-weight: 600;
+color: #0d0c22;
+display: inline-block;
+transform: translate(-6px,-7px);
+}
+
+.product-gellary .product .product-14 .author .left-section ul li a button{
+border: none;
+padding:2px 3px;
+background-color: #9e9ea7;
+border-radius: 3px;
+font-family: "Hass Rg";
+font-size: 14px;
+font-weight: 500;
+color: #fff;
+cursor: pointer;
+display: inline-block;
+transform: translate(-7px,-6px);
+}
+
+.product-gellary .product .product-14 .author .left-section ul li a button:hover{
+background-color: #ea4c89;
+}
+
+
+.product-gellary .product .product-14 .author .right-section{
+width: 35%;
+float: left;
+text-align: right;
+}
+
+
+.product-gellary .product .product-14 .author .right-section ul li{
+display: inline-block;
+padding:6px 3px;
+}
+
+.product-gellary .product .product-14 .author .right-section ul li:last-child{
+padding-right: 7px;
+}
+
+.product-gellary .product .product-14 .author .right-section ul li a{
+font-family: "Hass Rg";
+font-size: 12px;
+font-weight: 600;
+color: #0d0c22;
+cursor: text;
+}
+
+.product-gellary .product .product-14 .author .right-section ul li a i{
+color: #9e9ea7;
+}
+
+.product-gellary .product .product-14 .author .right-section ul li a i:hover{
+color: #ea4c89;
+cursor: pointer;
+}
+
+/* Product-15  */
+
+.product-gellary .product .product-15{
+  width: 276px;
+  height: 240px;
+  float: left;
+  margin-left: 32px;
+  margin-bottom: 25px;
+  position: relative;
+  cursor: pointer;
+}
+
+
+.product-gellary .product .product-15 .product-img .product-item{
+  width: 100%;
+  height: 206px;
+  background-image: url('../media/img/part-6.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+ 
+}
+
+.product-gellary .product .product-15 .product-img .product-item i{
+  display: inline-block;
+  transform: translate(240px,15px);
+  color: #fff;
+  font-size: 20px;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.product-gellary .product .product-15 .product-img .product-item:hover i{
+  opacity: 0;
+}
+
+
+.product-gellary .product .product-15 .product-img .product-content{
+width: 100%;
+background: linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.2));
+position: absolute;
+top: 147px;
+left: 0px;
+box-shadow: -5px -2px 15px rgba(14, 12, 12, 0.1);
+opacity: 0;
+transition: 0.5s;
+}
+
+.product-gellary .product .product-15 .product-img:hover  .product-content{
+opacity: 1;
+}
+
+.product-gellary .product .product-15 .product-img .product-content:after{
+content: " ";
+display: block;
+clear: both;
+}
+
+.product-gellary .product .product-15 .product-img .product-content .text{
+width: 70%;
+float: left;
+}
+
+.product-gellary .product .product-15 .product-img .product-content .text p{
+display: inline-block;
+font-family: "Hass Md";
+font-size: 16px;
+font-weight: 500;
+color: #fff;
+padding: 10px 10px 30px 20px;
+}
+
+.product-gellary .product .product-15 .product-img .product-content .file{
+width: 30%;
+float: left;
+}
+
+.product-gellary .product .product-15 .product-img .product-content .file i{
+padding: 8px;
+background-color: #fff;
+color: #6e6d7a;
+border-radius: 8px;
+margin-top: 10px;
+}
+
+.product-gellary .product .product-15 .product-img .product-content .file i:nth-child(1){
+margin-right: 5px;
+}
+
+.product-gellary .product .product-15 .author{
+width: 100%;
+
+}
+
+.product-gellary .product .product-15 .author:after{
+content: " ";
+display: block;
+clear: both;
+}
+
+.product-gellary .product .product-15 .author .left-section{
+width: 65%;
+float: left;
+}
+
+.product-gellary .product .product-15 .author .left-section ul li{
+display: inline-block;
+padding: 3px;
+}
+
+.product-gellary .product .product-15 .author .left-section ul li a img{
+width: 25px;
+height: 25px;
+border-radius: 50%;
+}
+
+.product-gellary .product .product-15 .author .left-section ul li a span{
+font-family: "Hass Rg";
+font-size: 14px;
+font-weight: 600;
+color: #0d0c22;
+display: inline-block;
+transform: translate(-6px,-7px);
+}
+
+.product-gellary .product .product-15 .author .left-section ul li a button{
+border: none;
+padding:2px 3px;
+background-color: #9e9ea7;
+border-radius: 3px;
+font-family: "Hass Rg";
+font-size: 14px;
+font-weight: 500;
+color: #fff;
+cursor: pointer;
+display: inline-block;
+transform: translate(-7px,-6px);
+}
+
+.product-gellary .product .product-15 .author .left-section ul li a button:hover{
+background-color: #ea4c89;
+}
+
+
+.product-gellary .product .product-15 .author .right-section{
+width: 35%;
+float: left;
+text-align: right;
+}
+
+
+.product-gellary .product .product-15 .author .right-section ul li{
+display: inline-block;
+padding:6px 3px;
+}
+
+.product-gellary .product .product-15 .author .right-section ul li:last-child{
+padding-right: 7px;
+}
+
+.product-gellary .product .product-15 .author .right-section ul li a{
+font-family: "Hass Rg";
+font-size: 12px;
+font-weight: 600;
+color: #0d0c22;
+cursor: text;
+}
+
+.product-gellary .product .product-15 .author .right-section ul li a i{
+color: #9e9ea7;
+}
+
+.product-gellary .product .product-15 .author .right-section ul li a i:hover{
+color: #ea4c89;
+cursor: pointer;
+}
+
+
+/* Product-16  */
+
+.product-gellary .product .product-16{
+  width: 276px;
+  height: 240px;
+  float: left;
+  margin-left: 32px;
+  margin-bottom: 25px;
+  position: relative;
+  cursor: pointer;
+}
+
+
+.product-gellary .product .product-16 .product-img .product-item{
+  width: 100%;
+  height: 206px;
+  background-image: url('../media/img/post-16.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+ 
+}
+
+.product-gellary .product .product-16 .product-img .product-item i{
+  display: inline-block;
+  transform: translate(240px,15px);
+  color: #fff;
+  font-size: 20px;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.product-gellary .product .product-16 .product-img .product-item:hover i{
+  opacity: 0;
+}
+
+
+.product-gellary .product .product-16 .product-img .product-content{
+width: 100%;
+background: linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.2));
+position: absolute;
+top: 147px;
+left: 0px;
+box-shadow: -5px -2px 15px rgba(14, 12, 12, 0.1);
+opacity: 0;
+transition: 0.5s;
+}
+
+.product-gellary .product .product-16 .product-img:hover  .product-content{
+opacity: 1;
+}
+
+.product-gellary .product .product-16 .product-img .product-content:after{
+content: " ";
+display: block;
+clear: both;
+}
+
+.product-gellary .product .product-16 .product-img .product-content .text{
+width: 70%;
+float: left;
+}
+
+.product-gellary .product .product-16 .product-img .product-content .text p{
+display: inline-block;
+font-family: "Hass Md";
+font-size: 16px;
+font-weight: 500;
+color: #fff;
+padding: 10px 10px 30px 20px;
+}
+
+.product-gellary .product .product-16 .product-img .product-content .file{
+width: 30%;
+float: left;
+}
+
+.product-gellary .product .product-16 .product-img .product-content .file i{
+padding: 8px;
+background-color: #fff;
+color: #6e6d7a;
+border-radius: 8px;
+margin-top: 10px;
+}
+
+.product-gellary .product .product-16 .product-img .product-content .file i:nth-child(1){
+margin-right: 5px;
+}
+
+.product-gellary .product .product-16 .author{
+width: 100%;
+
+}
+
+.product-gellary .product .product-16 .author:after{
+content: " ";
+display: block;
+clear: both;
+}
+
+.product-gellary .product .product-16 .author .left-section{
+width: 60%;
+float: left;
+}
+
+.product-gellary .product .product-16 .author .left-section ul li{
+display: inline-block;
+padding: 3px;
+}
+
+.product-gellary .product .product-16 .author .left-section ul li a img{
+width: 25px;
+height: 25px;
+border-radius: 50%;
+}
+
+.product-gellary .product .product-16 .author .left-section ul li a span{
+font-family: "Hass Rg";
+font-size: 14px;
+font-weight: 600;
+color: #0d0c22;
+display: inline-block;
+transform: translate(-6px,-7px);
+}
+
+.product-gellary .product .product-16 .author .left-section ul li a button{
+border: none;
+padding:2px 3px;
+background-color: #9e9ea7;
+border-radius: 3px;
+font-family: "Hass Rg";
+font-size: 14px;
+font-weight: 500;
+color: #fff;
+cursor: pointer;
+display: inline-block;
+transform: translate(-7px,-6px);
+}
+
+.product-gellary .product .product-16 .author .left-section ul li a button:hover{
+background-color: #ea4c89;
+}
+
+
+.product-gellary .product .product-16 .author .right-section{
+width: 40%;
+float: left;
+text-align: right;
+}
+
+
+.product-gellary .product .product-16 .author .right-section ul li{
+display: inline-block;
+padding:6px 3px;
+}
+
+.product-gellary .product .product-16 .author .right-section ul li:last-child{
+padding-right: 7px;
+}
+
+.product-gellary .product .product-16 .author .right-section ul li a{
+font-family: "Hass Rg";
+font-size: 12px;
+font-weight: 600;
+color: #0d0c22;
+cursor: text;
+}
+
+.product-gellary .product .product-16 .author .right-section ul li a i{
+color: #9e9ea7;
+}
+
+.product-gellary .product .product-16 .author .right-section ul li a i:hover{
+color: #ea4c89;
+cursor: pointer;
+}
+
+/* End Product Gellary Section  */
+
+
+/* Start Button Section  */
+
+.button{
+  width: 100%;
+  background-color: #fff;
+  padding: 30px 0px 40px;
+}
+
+.button .btn{
+  width: 375px;
+  margin: 0px auto;
+}
+
+.button .btn button{
+  padding: 10px 60px;
+  font-family: "Hass Md";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  height: 40px;
+  background: #ea4c89;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: 62px;
+}
+
+.button .btn button:hover{
+  background: #f082ac;
+}
+
+.button .btn a{
+  font-family: "Hass Rg";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #ea4c89;
+}
+
+.button .btn a:hover{
+  color: #f082ac;
+}
+
+/* End Button Section  */
+
+
+/* Start Footer Section  */
+
+.footer{
+  width: 100%;
+  background-color: #fafafb;
+  padding: 70px 0px;
+}
+
+.container-4{
+  width:1205px ;
+  height: 430px;
+  background-color: #fafafb;
+  margin: 0px auto;
+  border-bottom: 1px solid #d1cfcf;
+}
+
+.footer:after{
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+/* Part-1  */
+
+.footer .part-1{
+  width: 315px;
+  float: left;
+}
+
+.footer .part-1 .logo svg{
+  width: 104px;
+  fill: #ea4c89;
+  cursor: pointer;
+}
+
+.footer .part-1 .logo svg:hover{
+  fill: #bb3d6e;
+}
+
+.footer .part-1 .text{
+  margin: 20px 0px 30px;
+  width: 255px;
+}
+
+.footer .part-1 .text p{
+  font-family: "Hass Md";
+  font-size: 15px;
+  color: #3d3d4e;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.footer .part-1 .social-icon ul li{
+  display: inline-block;
+  padding-right: 15px;
+}
+
+.footer .part-1 .social-icon ul li a i{
+  font-size: 20px;
+  color: #3d3d4e;
+}
+
+.footer .part-1 .social-icon ul li a i:hover{
+  color: #0d0c22;
+}
+
+
+/* Part-2  */
+
+.footer .part-2{
+  width: 200px;
+  float: left;
+}
+
+.footer .part-2 .tittle{
+  margin-bottom: 25px;
+}
+
+.footer .part-2 .tittle p{
+  font-family: "Hass Md";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #0d0c22;
+}
+
+.footer .part-2 ul li a{
+  display: inline-block;
+  font-family: "Hass Rg";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #3d3d4e;
+  margin-bottom: 20px;
+}
+
+.footer .part-2 ul li a:hover{
+  color: #0d0c22;
+}
+
+/* Part-3  */
+
+.footer .part-3{
+  width: 200px;
+  float: left;
+}
+
+.footer .part-3 .top .tittle{
+  margin-bottom: 25px;
+}
+
+.footer .part-3 .top .tittle p{
+  font-family: "Hass Md";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #0d0c22;
+}
+
+.footer .part-3 .top ul li a{
+  display: inline-block;
+  font-family: "Hass Rg";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #3d3d4e;
+  margin-bottom: 20px;
+}
+
+.footer .part-3 .top ul li a:hover{
+  color: #0d0c22;
+}
+
+.footer .part-3 .bottom .tittle{
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+
+.footer .part-3 .bottom .tittle p{
+  font-family: "Hass Md";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #0d0c22;
+}
+
+.footer .part-3 .bottom a{
+  font-family: "Hass Rg";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #3d3d4e;
+  margin-bottom: 20px;
+}
+
+.footer .part-3 .bottom a:hover{
+  color: #0d0c22;
+}
+
+/* Part-4  */
+
+.footer .part-4{
+  width: 200px;
+  float: left;
+}
+
+.footer .part-4 .tittle{
+  margin-bottom: 25px;
+}
+
+.footer .part-4 .tittle p{
+  font-family: "Hass Md";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #0d0c22;
+}
+
+.footer .part-4 ul li a{
+  display: inline-block;
+  font-family: "Hass Rg";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #3d3d4e;
+  margin-bottom: 20px;
+}
+
+.footer .part-4 ul li a:hover{
+  color: #0d0c22;
+}
+
+/* Part-5  */
+
+.footer .part-5{
+  width: 290px;
+  float: left;
+}
+
+.footer .part-5 .top .tittle{
+  margin-bottom: 25px;
+}
+
+.footer .part-5 .top .tittle p{
+  font-family: "Hass Md";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #0d0c22;
+}
+
+.footer .part-5 .top ul li a{
+  display: inline-block;
+  font-family: "Hass Rg";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #3d3d4e;
+  margin-bottom: 20px;
+}
+
+.footer .part-5 .top ul li a:hover{
+  color: #0d0c22;
+}
+
+.footer .part-5 .bottom .tittle{
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+
+.footer .part-5 .bottom .tittle p{
+  font-family: "Hass Md";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #0d0c22;
+}
+
+.footer .part-5 .bottom a{
+  display: inline-block;
+  font-family: "Hass Rg";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #3d3d4e;
+  margin-bottom: 20px;
+}
+
+.footer .part-5 .bottom a:hover{
+  color: #0d0c22;
+}
+/* End Footer Section  */
+
+
+/* Start Copyright Section  */
+
+.copy{
+  width: 100%;
+  background-color: #fafafb;
+  padding-bottom: 50px;
+}
+
+.container-5{
+  width:1205px ;
+  background-color: #fafafb;
+  margin: 0px auto;
+  
+}
+
+.copy:after{
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.copy .left{
+  width: 50%;
+  float: left;
+}
+
+.copy .left p{
+  font-family: "Hass Rg";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #3d3d4e;
+}
+
+.copy .right{
+  width: 50%;
+  float: left;
+  text-align: right;
+}
+
+.copy .right p{
+  display: inline-block;
+  font-family: "Hass Rg";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #3d3d4e;
+}
+
+.copy .right p span{
+  display: inline-block;
+  font-family: "Hass Rg";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #0d0c22;
+}
+
+
+.copy .right img{
+  width: 25px;
+  display: inline-block;
+  transform: translate(0px,5px);
+}
+
+
+/* End Copyright Section  */

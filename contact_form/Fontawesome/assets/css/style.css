@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #EFF0F5;
+    font-family: Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,Sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+input:focus{
+    outline: none;
+} 
+
+.font{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9),rgba(255,255,255,0.9)), url("../media/img/bg.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.font .logo a img{
+    display: inline-block;
+   margin-top: 15px;
+   margin-left: 560px;
+   width: 30px;
+   transform: translate(-10px,6px);
+}
+
+.font .logo a h2{
+    display: inline-block;
+    color: #495057;;
+}
+
+.font .logo a h2:hover{
+    color: #228be6;
+}
+
+.font .form{
+    width: 355px;
+    background-color: #f5f5f5;
+    margin: 50px auto 20px;
+    padding: 20px 25px;
+    border: 1px solid #dee0e2;
+    border-radius: 3px;
+    box-shadow: 5px 5px 10px #dee0e2;
+}
+
+.font .form .text{
+    text-align: center;
+}
+
+.font .form .text h2{
+    color: #495057;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 10px 0px 10px 0px;
+}
+
+.font .form .text p{
+    color: #1864ab;
+    font-weight: 600;
+    padding: 0px 0px 30px 0px ;
+}
+
+.font .form form .input-1{
+    position: relative;
+}
+
+.font .form form .input-1 label{
+    display: block;
+    color: #495057;
+    font-weight: 500;
+    padding: 0px 0px 5px 0px;
+}
+
+.font .form  form .input-1  input{
+    width: 100%;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #dee2e6;
+    box-shadow: inset 0 0.25rem 0.125rem 0 rgb(0 0 0 / 5%);
+    border-radius: 3px;
+    
+}
+
+.font .form  form .input-1 i{
+    position: absolute;
+    top: 42px;
+    right: 13px;
+    color: #dee2e6;
+}
+
+.font .form  form .input-1 input::placeholder{
+    font-size: 14px;
+    color: #dee0e2;
+}
+
+.font .form  form .input-1 input:focus{
+    border-color: #4dabf7;
+    outline: none;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 1%), 0 0 8px rgb(34 139 230 / 50%);
+}
+
+
+.font .form form .input-2{
+    position: relative;
+    margin-top: 20px;
+}
+
+.font .form form .input-2 label{
+    display: block;
+    color: #495057;
+    font-weight: 500;
+    padding: 0px 0px 5px 0px;
+}
+
+.font .form  form .input-2  input{
+    width: 100%;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #dee2e6;
+    box-shadow: inset 0 0.25rem 0.125rem 0 rgb(0 0 0 / 5%);
+    border-radius: 3px;
+    
+}
+
+.font .form  form .input-2 i{
+    position: absolute;
+    top: 42px;
+    right: 13px;
+    color: #dee2e6;
+}
+
+
+.font .form  form .input-2 input:focus{
+    border-color: #4dabf7;
+    outline: none;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 1%), 0 0 8px rgb(34 139 230 / 50%);
+}
+
+.font .form  form .text-2{
+    margin-top: 20px;
+}
+
+.font .form  form .text-2 label{
+    font-size: 12px;
+    color: #495057;
+}
+
+.font .form  form .text-2 a{
+    font-size: 12px;
+    margin-left: 75px;
+    color: #4dabf7;
+    border-bottom: 1px solid #dee0e2;
+}
+
+.font .form  form .text-2 a:hover{
+    border-bottom: 1px solid #4dabf7;
+}
+
+.font .form  form .btn{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.font .form  form .btn button{
+    width: 100%;
+    padding: 18px 18px 20px 18px;
+    box-shadow: inset 0 1px 0 rgb(255 255 255 / 1%), 0 1px 1px rgb(0 0 0 / 5%);
+    background-color: #228be6;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid #228be6;
+    border-bottom: 5px solid #1c7ed6;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.font .form  form .btn button:hover{
+    background-color: #1c7ed6;
+}
+
+
+.font .form  form .btn button svg{
+    width: 20px;
+    color: #fff;
+    display: inline-block;
+    transform: translate(10px, 6px);
+}
+
+
+.font .footer{
+    text-align: center;
+}
+
+.font .footer p{
+    font-size: 12px;
+    color: #495057;
+}
+
+.font .footer p a{
+    font-size: 12px;
+    color: #4dabf7;
+    border-bottom: 1px solid #dee0e2;
+}
+
+.font .footer p a:hover{
+    border-bottom: 1px solid #4dabf7;
+}

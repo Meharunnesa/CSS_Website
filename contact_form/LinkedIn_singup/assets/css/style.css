@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F3F2EF;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Fira Sans",Ubuntu,Oxygen,"Oxygen Sans",Cantarell,"Droid Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",Helvetica,Arial,sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+input:focus{
+    outline: none;
+} 
+
+.linkedin .logo{
+    text-align: center;
+}
+
+.linkedin .logo svg{
+    width: 140px;
+    margin-top: 25px;
+}
+
+.linkedin .logo h2{
+    font-weight: 400;
+    color: rgba(0,0,0,0.9);
+    font-size: 32px;
+    margin-top: 30px;
+}
+
+.linkedin .form{
+    width: 350px;
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.linkedin .form form label{
+    display: block;
+    font-size: 14px;
+    color: rgba(0,0,0,0.6);
+}
+
+.linkedin .form form input{
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid rgba(0,0,0,0.6);
+    border-bottom: 1px solid rgba(0,0,0,0.6);
+    border-radius: 4px;
+}
+
+.linkedin .form form input:focus{
+    border: 2px solid rgba(0,0,0,0.6);
+    border-bottom: 2px solid rgba(0,0,0,0.6);
+}
+
+.linkedin .form .text{
+    text-align: center;
+}
+
+.linkedin .form .text p{
+    font-size: 12px;
+    color: rgba(0,0,0,0.6);
+}
+
+.linkedin .form .text p a{
+    color: #0a66c2;
+}
+.linkedin .form .text p a:hover{
+    text-decoration: underline;
+}
+
+.linkedin .form .join button{
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    padding: 12px;
+    background-color: #0a66c2;
+    border: 1px solid #0a66c2;
+    border-radius: 100px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.linkedin .form .join button:hover{
+    background-color: #004182;
+    border: 1px solid #004182;
+}
+
+.linkedin .form .join button:focus{
+    background-color: #084163;
+    border: 1px solid #084163;
+}
+
+.linkedin .form .divider{
+    margin-top: 25px;
+}
+
+.linkedin .form .divider:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.linkedin .form .divider .divider-1{
+    width: 39%;
+    height: 1px;
+    background-color: rgba(151, 146, 146, 0.6);
+    float: left;
+    margin-top: 12px;
+    margin-right: 30px;
+}
+
+.linkedin .form .divider .mid p{ 
+    float: left;
+    font-size: 17px;
+    color: rgba(0,0,0,0.6);
+}
+
+.linkedin .form .divider .divider-2{
+    width: 39%;
+    height: 1px;
+    background-color: rgba(151, 146, 146, 0.6);
+    float: left;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+
+.linkedin .form .google button{
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #0a66c2;
+    border-radius: 100px;
+    cursor: pointer;
+    color: #0a66c2;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.linkedin .form .google button:hover{
+    background-color: #ecf4fe;
+    border: 2px solid #0a66c2;
+}
+
+.linkedin .form .google button img{
+    width: 25px;
+    display: inline-block;
+    transform: translate(-10px,5px);
+}
+
+.linkedin .form .text-1 {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.linkedin .form .text-1 p{
+    color: rgba(0,0,0,0.9);
+    font-size: 16px;
+}
+
+.linkedin .form .text-1 p a{
+    color: #0a66c2;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.linkedin .form .text-1 p a:hover{
+    text-decoration: underline;
+}
+
+.linkedin .text-2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.linkedin .text-2 p{
+    color: rgba(0,0,0,0.9);
+    font-size: 14px;
+}
+
+.linkedin .text-2 p a{
+    color: #0a66c2;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.linkedin .text-2 p a:hover{
+    text-decoration: underline;
+}

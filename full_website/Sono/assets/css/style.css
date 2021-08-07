@@ -1,0 +1,1062 @@
+@import url('https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Start Resating Code  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+    font-family: 'Rosario', sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+input:focus{
+    outline: none;
+} 
+
+ul li{
+    list-style: none;
+}
+
+/* End Resatting Code  */
+
+/* Start Home Section  */
+.home{
+    width: 100%;
+    height: 90vh;
+    background: radial-gradient(circle, transparent 22%, rgba(0, 0, 0, 0.05) 24%, rgba(0, 0, 0, 0.2) 27%, rgba(0, 0, 0, 0.9) 70%), url('../media/img/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.home .triangle img{
+    width: 70px;
+    height: 20px;
+}
+
+.home .menu-item{
+    margin-top: 20px;
+}
+
+.home .menu-item ul li{
+    display: inline-block;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.home .menu-item ul li a{
+    display: inline-block;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 14px;
+    color: #fcface;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 28px;
+}
+
+.home .menu-item ul li a:hover{
+    opacity: 0.6;
+}
+
+.home .logo{
+    width: 558px;
+    height: 165px;
+    margin: 45px auto;
+    border-bottom: 2px solid #fcface;
+}
+
+.home .logo img{
+    width: 347px;
+    height: 109px;
+}
+
+.home .text{
+    width: 220px;
+    margin: 83px auto;
+}
+
+.home .text p{
+    font-size: 38px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    color: #fcface;
+}
+
+/* End Home Section  */
+
+/* Start Menu Section  */
+
+.menu{
+    width: 100%;
+    height: 435px;
+    background: radial-gradient(circle, transparent 22%, rgba(0, 0, 0, 0.05) 24%, rgba(0, 0, 0, 0.2) 27%, rgba(0, 0, 0, 0.9) 70%), url('../media/img/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.menu .text{
+    padding-top: 115px;
+}
+
+.menu .text p{
+    font-size: 35px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    color: #fcface;
+}
+
+.menu .menu-content{
+    width: 1195px;
+    margin: 60px auto;
+}
+
+.menu .menu-content:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.menu .menu-content .menu-1{
+    width: 490px;
+    float: left;
+    padding-bottom: 25px;
+    border-right: 2px solid #fcface;
+}
+
+.menu .menu-content img{
+    animation: rotate-flower 12s linear infinite;
+}
+
+.menu .menu-content .menu-1:hover img{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+
+.menu .menu-content .content{
+    text-align: left;
+    margin-top: 15px;
+}
+
+.menu .menu-content .content a{
+    font-size: 35px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    color: #fcface;
+
+}
+
+.menu .menu-content .menu-1:hover .content a{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+
+.menu .menu-content .menu-2{
+    width: 340px;
+    float: left;
+    padding-bottom: 25px;
+    border-right: 2px solid #fcface;
+}
+
+.menu .menu-content .menu-2:hover img{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.menu .menu-content .menu-2 .content{
+    text-align: center;
+    
+}
+
+.menu .menu-content .menu-2:hover .content a{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.menu .menu-content .menu-3{
+    width: 365px;
+    float: left;
+    padding-bottom: 25px;
+}
+
+.menu .menu-content .menu-3:hover img{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.menu .menu-content .menu-3 .content{
+    text-align: center;
+    
+}
+
+.menu .menu-content .menu-3:hover .content a{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+/* End Menu Section  */
+
+/* Start Tradition Section  */
+
+.tradition{
+    width: 100%;
+    height: 472px;
+    background-color: #fff;
+    text-align: center;
+}
+
+
+.tradition:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.tradition .left-section{
+    width: 42%;
+    height: 472px;
+    float: left;
+}
+
+.tradition .left-section .bg{
+    width: 518px;
+    height: 422px;
+    margin: 25px auto;
+    background-image: url('../media/img/tradition.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+
+
+.tradition .left-section .bg .text p{
+    font-size: 32px;
+    color: #000;
+    letter-spacing: 3px;
+    line-height: 130%;
+    text-transform: uppercase;
+    padding-top: 145px;
+}
+
+.tradition .left-section .bg .text span{
+    
+    font-size: 32px;
+    color: #000;
+    letter-spacing: 3px;
+    line-height: 130%;
+    text-transform: uppercase;
+    background-image: url('../media/img/tradition_bg.png');
+    background-size: 93% 90%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 0px 50px;
+}
+
+.tradition .left-section .bg .btn button{
+    margin-top: 40px;
+    padding: 9px 30px;
+    color: #fff;
+    border: 3px solid transparent;
+    background-color: #320c01;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.tradition .left-section .bg .btn button:hover{
+    opacity: 0.8;
+}
+
+
+.tradition .right-section{
+    width: 58%;
+    height: 472px;
+    float: left;
+}
+
+.tradition .right-section .tradition-slide .owl-carousel .item img{
+    width: 100%;
+    height: 472px;
+}
+/* End Tradition Section  */
+
+
+/* Start Excitement Section  */
+
+.excitement{
+    width: 100%;
+    height: 472px;
+    background-color: #fff;
+    text-align: center;
+}
+
+
+.excitement:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.excitement .left-section{
+    width: 58%;
+    height: 472px;
+    float: left;
+}
+
+.excitement .left-section .excitement-slide .owl-carousel .item img{
+    width: 100%;
+    height: 472px;
+}
+
+.excitement .right-section{
+    width: 42%;
+    height: 472px;
+    float: left;
+}
+
+.excitement .right-section .bg{
+    width: 518px;
+    height: 422px;
+    margin: 25px auto;
+    background-image: url('../media/img/excitement.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+
+
+.excitement .right-section .bg .text p{
+    font-size: 32px;
+    color: #000;
+    letter-spacing: 3px;
+    line-height: 130%;
+    text-transform: uppercase;
+    padding-top: 145px;
+}
+
+.excitement .right-section .bg .text span{
+    
+    font-size: 32px;
+    color: #000;
+    letter-spacing: 3px;
+    line-height: 130%;
+    text-transform: uppercase;
+    background-image: url('../media/img/excitement_bg.png');
+    background-size: 93% 90%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 0px 50px;
+}
+
+.excitement .right-section .bg .btn button{
+    margin-top: 40px;
+    padding: 9px 30px;
+    color: #fff;
+    border: 3px solid transparent;
+    background-color: #320c01;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.excitement .right-section .bg .btn button:hover{
+    opacity: 0.8;
+}
+
+/* End Excitement Section  */
+
+/* Start At Sono Section  */
+
+.at-sono{
+    width: 100%;
+    height: 472px;
+    background-color: #fff;
+    text-align: center;
+}
+
+
+.at-sono:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.at-sono .left-section{
+    width: 42%;
+    height: 472px;
+    float: left;
+}
+
+.at-sono .left-section .bg{
+    width: 518px;
+    height: 422px;
+    margin: 25px auto;
+    background-image: url('../media/img/at_sono.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+
+
+.at-sono .left-section .bg .text p{
+    font-size: 32px;
+    color: #000;
+    letter-spacing: 3px;
+    line-height: 130%;
+    text-transform: uppercase;
+    padding-top: 145px;
+}
+
+.at-sono .left-section .bg .text span{
+    
+    font-size: 32px;
+    color: #000;
+    letter-spacing: 3px;
+    line-height: 130%;
+    text-transform: uppercase;
+    background-image: url('../media/img/at_sono_bg.png');
+    background-size: 93% 90%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 0px 50px;
+}
+
+.at-sono .left-section .bg .text h3{
+    display: block;
+    font-family: "Fira Sans", "Open Sans", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    padding-top: 20px;
+}
+
+.at-sono .left-section .bg .btn button{
+    font-family: 'Rosario', sans-serif;
+    margin-top: 40px;
+    padding: 9px 30px;
+    color: #fff;
+    border: 3px solid transparent;
+    background-color: #320c01;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.at-sono .left-section .bg .btn button:hover{
+    opacity: 0.8;
+}
+
+
+.at-sono .right-section{
+    width: 58%;
+    height: 472px;
+    float: left;
+}
+
+.at-sono .right-section .at-sono-slide .owl-carousel .item img{
+    width: 100%;
+    height: 472px;
+}
+
+/* End At sono Section  */
+
+
+/* Start Experience Section  */
+
+.experience{
+    width: 100%;
+    height: 472px;
+    background-color: #fff;
+    text-align: center;
+}
+
+
+.experience:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.experience .left-section{
+    width: 58%;
+    height: 472px;
+    background-image: url('../media/img/Sono-Gift-Card.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    float: left;
+}
+
+
+.experience .right-section{
+    width: 42%;
+    height: 472px;
+    float: left;
+}
+
+.experience .right-section .bg{
+    width: 518px;
+    height: 422px;
+    margin: 25px auto;
+    background-image: url('../media/img/experience.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+
+
+.experience .right-section .bg .text p{
+    font-size: 32px;
+    color: #000;
+    letter-spacing: 3px;
+    line-height: 130%;
+    text-transform: uppercase;
+    padding-top: 145px;
+}
+
+.experience .right-section .bg .text span{
+    
+    font-size: 32px;
+    color: #000;
+    letter-spacing: 3px;
+    line-height: 130%;
+    text-transform: uppercase;
+    background-image: url('../media/img/experience_bg.png');
+    background-size: 93% 90%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 0px 50px;
+}
+
+.experience .right-section .bg .text h3{
+    display: block;
+    font-family: "Fira Sans", "Open Sans", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    padding-top: 20px;
+}
+
+.experience .right-section .bg .btn button{
+    margin-top: 40px;
+    padding: 9px 30px;
+    color: #fff;
+    border: 3px solid transparent;
+    background-color: #320c01;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.experience .right-section .bg .btn button:hover{
+    opacity: 0.8;
+}
+
+/* End Excitement Section  */
+
+/* Start Program Section  */
+
+.program{
+    width: 100%;
+    height: 472px;
+    background-color: #fff;
+    text-align: center;
+}
+
+
+.program:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.program .left-section{
+    width: 42%;
+    height: 472px;
+    float: left;
+}
+
+.program .left-section .bg{
+    width: 518px;
+    height: 422px;
+    margin: 25px auto;
+    background-image: url('../media/img/program.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+
+
+.program .left-section .bg .text p{
+    font-size: 32px;
+    color: #000;
+    letter-spacing: 3px;
+    line-height: 130%;
+    text-transform: uppercase;
+    padding-top: 145px;
+}
+
+.program .left-section .bg .text span{
+    
+    font-size: 32px;
+    color: #000;
+    letter-spacing: 3px;
+    line-height: 130%;
+    text-transform: uppercase;
+    background-image: url('../media/img/program_bg.png');
+    background-size: 93% 90%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 0px 50px;
+}
+
+.program .left-section .bg .text h3{
+    width: 388px;
+    display: block;
+    font-family: "Fira Sans", "Open Sans", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    padding-top: 20px;
+    margin: 0px auto;
+}
+
+.program .left-section .bg .btn button{
+    font-family: 'Rosario', sans-serif;
+    margin-top: 40px;
+    padding: 9px 30px;
+    color: #fff;
+    border: 3px solid transparent;
+    background-color: #320c01;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.program .left-section .bg .btn button:last-child{
+    padding: 9px;
+    margin-left: 5px;
+}
+
+.program .left-section .bg .btn button:hover{
+    opacity: 0.8;
+}
+
+
+.program .right-section{
+    width: 58%;
+    height: 472px;
+    float: left;
+}
+
+.program .right-section .program-slide .owl-carousel .item img{
+    width: 100%;
+    height: 472px;
+}
+
+/* End Program Section  */
+
+/* Start Address Section  */
+
+.address{
+    width: 100%;
+   background-color: #fff;
+}
+
+.address:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+/* Start left-section  */
+
+.address .left-section{
+    width: 50%;
+    float: left;
+}
+
+.address .left-section .add{
+    width: 640px;
+    background-image: url('../media/img/address.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px auto;
+}
+
+.address .left-section .add .part-1{
+    padding-top: 95px;
+    padding-left: 65px;
+}
+
+.address .left-section .add .part-1 h3{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 130%;
+    color: #000000;
+    margin-bottom: 3px;
+    
+}
+
+.address .left-section .add .part-1 p{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 130%;
+    color: #000000;
+    margin-bottom: 3px;
+}
+
+.address .left-section .add .part-2{
+    padding-top: 45px;
+    padding-left: 65px;
+}
+
+.address .left-section .add .part-2 h3{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 130%;
+    color: #000000;
+    margin-bottom: 3px;
+    
+}
+
+.address .left-section .add .part-2 p{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 130%;
+    color: #000000;
+    margin-bottom: 3px;
+}
+
+.address .left-section .add .part-3{
+    padding-top: 25px;
+    padding-left: 65px;
+}
+
+.address .left-section .add .part-3 h4{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 130%;
+    color: #000000;
+    margin-bottom: 3px;
+    
+}
+
+.address .left-section .add .part-3 p{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 130%;
+    color: #000000;
+    margin-bottom: 3px;
+}
+
+
+.address .left-section .add .part-3 p:nth-child(3){
+    padding-bottom: 20px;
+}
+
+.address .left-section .add .part-3 p:nth-child(5){
+    padding-bottom: 20px;
+}
+
+.address .left-section .add .part-3 p:nth-child(7){
+    padding-bottom: 20px;
+}
+
+
+.address .left-section .add .part-4{
+    padding-top: 45px;
+    padding-left: 65px;
+    padding-bottom: 100px;
+    width: 570px;
+}
+
+.address .left-section .add .part-4 h3{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 130%;
+    color: #000000;
+    margin-bottom: 3px;
+    
+}
+
+.address .left-section .add .part-4 p{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 130%;
+    color: #000000;
+    margin-bottom: 3px;
+}
+
+
+ /* Start right-section  */
+
+
+.address .right-section{
+    width: 50%;
+    float: left;
+}
+
+.address .right-section .form{
+    width: 640px;
+    background-image: url('../media/img/form.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px auto;
+    padding-bottom: 352px;
+}
+
+.address .right-section .form .text{
+    padding-top: 67px;
+    padding-left: 65px;
+}
+
+.address .right-section .form .text h2{
+    font-family: "Rosario", "Open Sans", "Arial", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 37px;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.address .right-section .form .text p{
+    width: 492px;
+    font-family: "Fira Sans", "Open Sans", "Arial", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    color: #000000;
+    line-height: 120%;
+}
+
+.address .right-section .form form .input{
+    padding-left: 65px;
+    margin-top: 20px;
+}
+
+.address .right-section .form form .input label{
+    font-family: "Fira Sans", "Open Sans", "Arial", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    color: #000000;
+    line-height: 120%;
+}
+
+.address .right-section .form form .input input{
+    border: none;
+    width: 383px;
+    margin-left: 75px;
+    margin-bottom: 15px;
+}
+
+.address .right-section .form form .input .input-4 label{
+    display: inline-block;
+    transform: translate(0px,-107px);
+}
+
+.address .right-section .form form .input .input-4 textarea{
+    border: none;
+    width: 383px;
+    margin-left: 45px;
+}
+
+.address .right-section .form form .input .input-5 input{
+    display: inline-block;
+    transform: translate(-135px,10px);
+    
+}
+
+.address .right-section .form form .input .input-5 label{
+    display: inline-block;
+    transform: translate(145px,-20px);
+    font-size: 16px;
+    color: #000;
+    
+}
+
+
+.address .right-section .form form .input button{
+    font-family: 'Rosario', sans-serif;
+    margin-top: 40px;
+    padding: 9px 40px;
+    color: #fff;
+    border: 3px solid transparent;
+    background-color: #320c01;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-left: 382px;
+}
+
+
+
+.address .right-section .form form .input button:hover{
+    opacity: 0.8;
+}
+
+/* End Address Section  */
+
+
+
+/* Start Location Section  */
+
+.location{
+    width: 100%;
+    height: 500px;
+    background-image: url('../media/img/location.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    transform: scale(1);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+
+
+/* End Location Section  */
+
+
+/* Start Footer Section  */
+
+.footer{
+    width: 100%;
+    background-color: #320c01;
+    padding: 75px;
+}
+
+.footer:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.footer .left{
+    width: 50%;
+    text-align: left;
+    float: left;
+}
+
+.footer .left h3{
+    font-size: 16px;
+    color: #fcface;
+    font-family: "Fira Sans", "Open Sans", "Arial", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+.footer .left h3:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.footer .left p{
+    font-size: 15px;
+    color: #fcface;
+    font-family: "Fira Sans", "Open Sans", "Arial", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 5px;
+}
+
+
+.footer .right{
+    width: 50%;
+    text-align: right;
+    float: left;
+}
+
+.footer .right .face{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fcface;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.footer .right .face img{
+    width: 30px;
+    display: inline-block;
+    transform: translate(-14px,14px);
+}
+
+
+.footer .right .ins{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fcface;
+    cursor: pointer;
+}
+
+.footer .right .ins img{
+    width: 30px;
+    display: inline-block;
+    transform: translate(-14px,14px);
+}
+
+/* End footer Section  */
+
+
+@keyframes rotate-flower{
+0%{
+    transform: rotate(0deg);
+}
+
+100%{
+    transform: rotate(360deg);
+}
+}

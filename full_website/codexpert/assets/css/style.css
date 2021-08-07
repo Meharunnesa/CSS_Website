@@ -1,0 +1,1064 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&family=Varela+Round&display=swap');
+/* Start Resating Code  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFFFFF;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+input:focus{
+    outline: none;
+} 
+
+ul li{
+    list-style: none;
+}
+
+/* End Resatting Code  */
+
+/* Start Header Section  */
+
+.container{
+    width: 1112px;
+    margin: 0px auto;
+}
+
+.header{
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #f5f5f5;
+    box-shadow: 0px 0px 15px #a8a8a8;
+    position: fixed;
+    z-index: 20;
+}
+
+.header:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.header .logo{
+    width: 340px;
+    float: left;
+}
+
+.header .logo img{
+    width: 200px;
+    margin-top: 20px;
+}
+
+.header .menu{
+    width: 630px;
+    float: left;
+}
+
+.header .menu ul li{
+    display: inline-block;
+}
+
+.header .menu ul li a{
+    font-size: 12px;
+    font-weight: 400;
+    color: #242424;
+    display: inline-block;
+    padding: 30px 20px;
+}
+
+.header .btn{
+    width: 142px;
+    float: left;
+    margin-top: 20px;
+}
+
+.header .btn button{
+    padding: 10px 30px;
+    border-radius: 22px;
+    border: 2px solid #D10090;
+    background-color: #D10090;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.header .btn button:hover{
+    background-color: #fff;
+    color: #D10090;
+}
+
+/* End Header Section  */
+
+
+/* Start Home Section  */
+
+.home{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    padding-top: 80px;
+    margin-bottom: 120px;
+}
+
+.home:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.home .left{
+    width: 440px;
+    float: left;
+    margin-top: 105px;
+}
+
+.home .left p{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 52px;
+    color: #E2498A;
+}
+
+.home .left button{
+    padding: 8px 23px;
+    color: #4FACF2;
+    background-color: #FFFFFF;
+    border: 2px solid #4FACF2;
+    border-radius: 23px;
+    cursor: pointer;
+    margin-top: 45px;
+}
+
+.home .left button:hover{
+    background-color: #4facf2;
+    color: #fff;
+}
+
+.home .right{
+    width: 672px;
+    float: left;
+}
+
+
+.home .right img{
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+
+/* End Home Section  */
+
+
+/* Start Product Section  */
+
+.product{
+    width: 100%;
+    height: 530px;
+    background: linear-gradient(180deg,#fff 0%, #c3edff 100%);
+}
+
+.product .tittle{
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.product .tittle p{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    color: #383838;
+}
+
+.product .tittle p span{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    color: #383838;
+}
+
+.product .card:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.product .card .card-1{
+    width: 31%;
+    height: 390px;
+    background-color: #fff;
+    float: left;
+    margin-right: 25px;
+    box-shadow: 0px 0px 6px 0px #dadada;
+    border-radius: 12px;
+    text-align: center;
+    
+}
+
+.product .card .card-1:hover{
+    box-shadow: 0px 0px 15px #bbb8b8;
+}
+
+.product .card img{
+    width: 100px;
+    border-radius: 5px;
+    margin: 30px 0px 20px;
+}
+.product .card p{
+    font-size: 28px;
+    font-weight: 300px;
+    color: #4054B2;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: transparent;
+    background-image: linear-gradient(
+    100deg, #4054B2 0%, #DC6E89 100%);
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.product .card .text{
+    width: 210px;
+    margin-left: 70px;
+}
+
+.product .card .text span{
+    color: #7A7A7A;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.5em;
+   
+}
+
+.product .card button{
+    padding: 8px 23px;
+    color: #4FACF2;
+    background-color: #FFFFFF;
+    border: 2px solid #4FACF2;
+    border-radius: 23px;
+    cursor: pointer;
+    display: block;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+.product .card button:hover{
+    background-color: #4facf2;
+    color: #fff;
+}
+
+
+.product .card .card-2{
+    width: 31%;
+    height: 390px;
+    background-color: #fff;
+    float: left;
+    margin-right: 25px;
+    box-shadow: 0px 0px 6px 0px #dadada;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.product .card .card-2:hover{
+    box-shadow: 0px 0px 15px #bbb8b8;
+}
+
+.product .card .text-2{
+    width: 270px;
+    margin-left: 30px;
+}
+
+.product .card .text-2 span{
+    color: #7A7A7A;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.5em;
+   
+}
+
+.product .card .card-3{
+    width: 31%;
+    height: 390px;
+    background-color: #fff;
+    float: left;
+    box-shadow: 0px 0px 6px 0px #dadada;
+    border-radius: 12px;
+    text-align: center;
+    z-index: 10;
+}
+
+.product .card .card-3:hover{
+    box-shadow: 0px 0px 15px #bbb8b8;
+}
+
+.product .card .text-3{
+    width: 290px;
+    margin-left: 30px;
+}
+
+.product .card .text-3 span{
+    color: #7A7A7A;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.5em;
+   
+}
+
+.product svg{
+    z-index: -1;
+    fill: #c3edff;
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+/* End Product Section  */
+
+
+/* Start Codexpert Section  */
+
+.codexpert{
+    width: 100%;
+    height: 570px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.codexpert .tittle p{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    color: #383838;
+    padding-top: 200px;
+}
+
+.codexpert .card{
+    margin-top: 50px;
+}
+
+.codexpert .card:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.codexpert .card .card-1{
+    width: 31%;
+    height: 175px;
+    background-color: rgba(0, 130, 255, 0.06);
+    border-radius: 10px;
+    float: left;
+    margin-right: 25px;
+}
+
+.codexpert .card .card-1 .icon-1{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgba(0, 181, 237, 0.79);
+    display: inline-block;
+    transform: translate(-120px,20px);
+}
+
+.codexpert .card .card-1 .icon-1 i{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.codexpert .card .card-1 p{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: rgba(0, 181, 237, 0.79);
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+/* Cart-2  */
+
+.codexpert .card .card-2{
+    width: 31%;
+    height: 175px;
+    background-color: rgba(233, 79, 68, 0.06);
+    border-radius: 10px;
+    float: left;
+    margin-right: 25px;
+}
+
+.codexpert .card .card-2 .icon-2{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgba(239, 40, 40, 0.77);
+    display: inline-block;
+    transform: translate(-120px,20px);
+}
+
+.codexpert .card .card-2 .icon-2 i{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.codexpert .card .card-2 p{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: rgba(239, 40, 40, 0.77);
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+/* Cart-3  */
+
+.codexpert .card .card-3{
+    width: 31%;
+    height: 175px;
+    background-color: rgba(97, 206, 112, 0.17);
+    border-radius: 10px;
+    float: left;
+}
+
+.codexpert .card .card-3 .icon-3{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #49B158;
+    display: inline-block;
+    transform: translate(-120px,20px);
+}
+
+.codexpert .card .card-3 .icon-3 i{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.codexpert .card .card-3 p{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #49B158;
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+
+/* Content  */
+.codexpert .content:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+/* Card-4  */
+.codexpert .content .card-4{
+    width: 530px;
+    height: 175px;
+    background-color: rgba(144, 19, 254, 0.06);
+    border-radius: 10px;
+    float: left;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+.codexpert .content .card-4 .icon-4{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #AB83EF;
+    display: inline-block;
+    transform: translate(-220px,20px);
+}
+
+.codexpert .content .card-4 .icon-4 i{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.codexpert .content .card-4 p{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #AB83EF;
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+/* Card-5  */
+.codexpert .content .card-5{
+    width: 530px;
+    height: 175px;
+    background-color: rgba(43, 98, 201, 0.06);
+    border-radius: 10px;
+    float: left;
+    margin-top: 25px;
+}
+
+.codexpert .content .card-5 .icon-5{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgba(41, 117, 216, 0.9);
+    display: inline-block;
+    transform: translate(-220px,20px);
+}
+
+.codexpert .content .card-5 .icon-5 i{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.codexpert .content .card-5 p{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: rgba(41, 117, 216, 0.9);
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+/* End Codexpert Section  */
+
+
+/* Start Number Section  */
+
+.number{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 170px;
+    margin-top: 50px;
+}
+
+.number .tittle p{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    color: #383838;
+    padding-top: 200px;
+    padding-bottom: 40px;
+}
+
+.number::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.number .part-1{
+    width: 278px;
+    height: 210px;
+    float: left;
+    background-color:#ECF9FF;
+}
+
+.number .part-1 i{
+    color: #52B1DA;
+    font-size: 50px;
+    margin-top: 25px;
+}
+
+.number .part-1 p{
+    color: #52B1DA;
+    font-size: 58px;
+    font-weight: 300;
+    padding-top: 10px;
+}
+
+.number .part-1 span{
+    color: #52B1DA;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 2.5;
+}
+
+/* Part-2  */
+
+.number .part-2{
+    width: 278px;
+    height: 210px;
+    float: left;
+    background-color:#FFFAEE;
+}
+
+.number .part-2 i{
+    color: #FFB700;
+    font-size: 50px;
+    margin-top: 25px;
+}
+
+.number .part-2 p{
+    color: #FFB700;
+    font-size: 58px;
+    font-weight: 300;
+    padding-top: 10px;
+}
+
+.number .part-2 span{
+    color: #FFB700;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 2.5;
+}
+
+
+/* Part-3  */
+
+.number .part-3{
+    width: 278px;
+    height: 210px;
+    float: left;
+    background-color:#EFFFF1;
+}
+
+.number .part-3 i{
+    color: #5BC966;
+    font-size: 50px;
+    margin-top: 25px;
+}
+
+.number .part-3 p{
+    color: #5BC966;
+    font-size: 58px;
+    font-weight: 300;
+    padding-top: 10px;
+}
+
+.number .part-3 span{
+    color: #5BC966;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 2.5;
+}
+
+/* Part-4  */
+
+.number .part-4{
+    width: 278px;
+    height: 210px;
+    float: left;
+    background-color: #FFF3F9;
+}
+
+.number .part-4 i{
+    color: #FF89BF;
+    font-size: 50px;
+    margin-top: 25px;
+}
+
+.number .part-4 p{
+    color: #FF89BF;
+    font-size: 58px;
+    font-weight: 300;
+    padding-top: 10px;
+}
+
+.number .part-4 span{
+    color: #FF89BF;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 2.5;
+}
+
+/* End Number Section  */
+
+
+/* Start People Section  */
+
+.people{
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #FCC5FF 100%);
+    text-align: center;
+}
+
+
+
+.people .tittle p{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    color: #383838;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.people .wordpress{
+    width: 1066px;
+    height: 210px;
+    background-color: #fff;
+    z-index: 10px;
+}
+
+.people .wordpress:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.people .wordpress .tittle{
+    width: 90%;
+    height: 105px;
+    background-color:#fff;
+    float: left;
+    text-align: left;
+    border-bottom: 1px solid #dadada;
+}
+
+.people .wordpress .tittle img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.people .wordpress .tittle p{
+    font-size: 22px;
+    color: #1c2022;
+    display: inline-block;
+    transform: translate(5px,-31px);
+}
+
+.people .wordpress .tittle i{
+    color: #FFB700;
+    display: inline-block;
+    transform: translate(80px,-65px);
+}
+
+.people .wordpress .tittle span{
+    font-size: 16px;
+    color: #1c2022;
+    display: inline-block;
+    transform: translate(80px,-60px);
+}
+
+.people .wordpress .logo{
+    width: 10%;
+    height: 105px;
+    background-color: #fff;
+    border-bottom: 1px solid #dadada;
+    float: left;
+}
+
+.people .wordpress .logo i{
+    color: #21759b;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.people .wordpress .text{
+    text-align: left;
+   
+}
+
+.people .wordpress .text p{
+    padding-left: 10px;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #1c2022;
+    line-height: 20px;
+    display: inline-block;
+}
+
+.people svg{
+    z-index: -1;
+    fill: #FCC5FF;
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+
+/* End People Section  */
+
+
+/* Start Customer Section  */
+
+.customer{
+    width: 100%;
+    height: 550px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.customer .tittle p{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    color: #383838;
+    padding-top: 200px;
+    padding-bottom: 40px;
+}
+
+.customer .img img{
+    width: 200px;
+    margin-right: 50px;
+    
+}
+
+.customer .img img:last-child{
+    margin-right: 0px;
+}
+
+/* End Customer Section  */
+
+
+/* Start Footer Section  */
+
+.footer{
+    width: 100%;
+    height: 450px;
+    background: linear-gradient(30deg, #BC09B1 0%, #3E0279 100%);
+    
+}
+.container{
+    position: relative;
+}
+
+.footer::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+/* Part-1  */
+
+.footer .part-1{
+    width: 365px;
+    position: absolute;
+    top: 90px;
+    left: 0px;
+    float: left;
+}
+
+.footer .part-1 .logo img{
+    width: 250px;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 15px;  
+}
+
+.footer .part-1 p{
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 1.7em;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding-bottom: 20px;
+}
+
+.footer .part-1 .social-icon::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.footer .part-1 .social-icon .face{
+    width: 40px;
+    height: 40px;
+    background-color: #3b5998;
+    border-radius: 50%;
+    text-align: center;
+    float: left;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.footer .part-1 .social-icon .face i{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.footer .part-1 .social-icon .twitter{
+    width: 40px;
+    height: 40px;
+    background-color: #1da1f2;
+    border-radius: 50%;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.footer .part-1 .social-icon .twitter i{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.footer .part-1 .social-icon .linkedin{
+    width: 40px;
+    height: 40px;
+    background-color: #0077b5;
+    border-radius: 50%;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.footer .part-1 .social-icon .linkedin i{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.footer .part-1 .social-icon .youtube{
+    width: 40px;
+    height: 40px;
+    background-color: #cd201f;
+    border-radius: 50%;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.footer .part-1 .social-icon .youtube i{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.footer .part-1 .social-icon .word{
+    width: 40px;
+    height: 40px;
+    background-color: #21759b;
+    border-radius: 50%;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.footer .part-1 .social-icon .word i{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+/* Part-2  */
+
+.footer .part-2{
+    width: 240px;
+    float: left;
+    position: absolute;
+    top: 90px;
+    left: 395px;
+}
+
+.footer .part-2 p{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding-bottom: 15px;
+}
+
+.footer .part-2 ul li a{
+    font-size: 14px;
+    line-height: 2.5em;
+    color: #cccccc;
+}
+
+/* Part-3  */
+
+.footer .part-3{
+    width: 240px;
+    float: left;
+    position: absolute;
+    top: 90px;
+    left: 635px;
+}
+
+.footer .part-3 p{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding-bottom: 15px;
+}
+
+.footer .part-3 ul li a{
+    font-size: 14px;
+    line-height: 2.5em;
+    color: #cccccc;
+}
+
+/* Part-4  */
+
+.footer .part-4{
+    width: 240px;
+    float: left;
+    position: absolute;
+    top: 90px;
+    left: 875px;
+}
+
+.footer .part-4 p{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding-bottom: 15px;
+}
+
+.footer .part-4 ul li a{
+    font-size: 14px;
+    line-height: 2.5em;
+    color: #cccccc;
+}
+
+.footer img{
+    margin-top: 200px;
+    width: 230px;
+    z-index: 1;
+}
+
+/* End Footer Section  */
+
+
+/* Start Copyright Section  */
+
+.copy{
+    width: 100%;
+    text-align: center;
+    background-color: #000;
+}
+
+.copy p{
+    color: #FFFFFF;
+    font-family: "Nunito", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+    padding: 10px 0px;
+}
+
+/* End Copyright Section  */
